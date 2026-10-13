@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100"><!-- The map: a runestone, the Norse way of marking a place, its rune band a serpent with red-lead paint on grey stone. The band reads nothing. Drawn here, 2026-10-09. -->
+<path d="M52 96 L50 30 Q50 6 80 4 Q110 6 110 30 L108 96 Z" fill="#9c968a" stroke="#2e2419" stroke-width="3"/>
+<path d="M60 92 L58 32 Q58 14 80 12 Q102 14 102 32 L100 92" fill="none" stroke="#d9481f" stroke-width="7"/>
+<path d="M100 92 l-6 6 M60 92 l6 6" stroke="#d9481f" stroke-width="4"/>
+<path d="M58 30 Q50 22 56 16 Q62 14 62 20" fill="none" stroke="#1e1b18" stroke-width="3"/>
+<g fill="none" stroke="#1e1b18" stroke-width="2.4"><circle cx="80" cy="48" r="10"/><circle cx="80" cy="66" r="10"/><path d="M70 57 L90 57"/></g>
+<path d="M24 96 H136" stroke="#6e5034" stroke-width="3"/>
+</svg>

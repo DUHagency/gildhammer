@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arcade — Gildhammer</title>
+<meta name="description" content="Twenty-eight real arcade machines from 1977 to 2001, released by the people who made them: download the ROM from the MAME project and play it here in your browser.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="games.css">
+<script src="js/app.js" defer></script>
+<script src="js/games.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html">Software</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="games.html" aria-current="page">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html">Shipping</a></li>
+    <li><a href="quote.html">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/games.svg" alt="">
+    <h1>The arcade</h1>
+    <p class="lede">Twenty-eight real machines from 1977 to 2001, Exidy, Bally/Midway, Videa, Video Klein and more, released by the people who made them. Download, press Play, pick the file.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <ol class="steps">
+    <li><b>1</b> Press <em>Download</em>. The MAME project&#39;s page opens; tick the box and save the zip.</li>
+    <li><b>2</b> Press <em>Play</em> on the same machine and pick that zip.</li>
+    <li><b>3</b> <span id="controls">5 is a coin, 1 starts.</span></li>
+  </ol>
+  <div class="cabinet" id="cabinet" hidden>
+    <canvas id="screen" width="512" height="480" aria-label="Arcade screen"></canvas>
+    <p class="cab-msg" id="cab-msg" aria-live="polite"></p>
+  </div>
+  <p class="jump"><a class="btn" href="#arcade">Arcade · 28 machines</a> <a class="btn" href="#downloads">Downloads · 8 PC games</a></p>
+  <div class="filters" id="eras" role="group" aria-label="Era"></div>
+  <ul class="machines" id="arcade"><li><p>Loading…</p></li></ul>
+  <section class="group" id="downloads" aria-labelledby="dl-h">
+    <h3 id="dl-h">Downloads: PC adventures, 1992–1996</h3>
+    <p class="intro">Full games their makers gave away, from the ScummVM project&#39;s own servers. Unzip and open the folder in <a href="https://www.scummvm.org/downloads/" rel="noopener">ScummVM</a>, free for Windows, Mac, Linux and phones.</p>
+    <ul class="machines" id="dl"><li><p>Loading…</p></li></ul>
+  </section>
+  <p class="intro fine-print">The ROMs are released for free, non-commercial use and may be handed out only by the MAME project, so the zip comes from them and never from us: this page reads it in your browser and sends it nowhere. The emulator is <a href="emu/SOURCE.md">MAME 0.289</a>, free software under the GPL. Colours on screen are held to this site&#39;s palette.</p>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

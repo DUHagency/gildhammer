@@ -1,0 +1,1036 @@
+{
+  "generated": "2026-10-08",
+  "note": "Licences as reported by each repository's licence file (GitHub reports AGPL-3.0/GPL-3.0 without -only/-or-later). runs_with: yes = bundled profile or maker support seen in the repo; likely = should work, not tested; not stated / not checked = unknown.",
+  "groups": [
+    {
+      "id": "slicers",
+      "name": "Slicers",
+      "items": [
+        {
+          "id": "orcaslicer",
+          "name": "OrcaSlicer",
+          "purpose": "Turns a 3-D model into the G-code a printer runs, with ready profiles for many brands.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.orcaslicer.com",
+          "repo_url": "https://github.com/OrcaSlicer/OrcaSlicer",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.4.2",
+          "release_date": "2026-07-07",
+          "runs_with": {
+            "bambu_p1s": "yes",
+            "qidi_xmax3": "yes"
+          },
+          "note": "Bundled machine profiles for the Bambu Lab P1S and the Qidi X-Max 3 seen in resources/profiles. Repo moved from SoftFever/OrcaSlicer.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "bambustudio",
+          "name": "Bambu Studio",
+          "purpose": "Bambu Lab's own slicer, also used for other brands.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/bambulab/BambuStudio",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v02.08.02.61",
+          "release_date": "2026-08-21",
+          "runs_with": {
+            "bambu_p1s": "yes",
+            "qidi_xmax3": "yes"
+          },
+          "note": "The maker's slicer for the P1S; also bundles a Qidi X-Max 3 profile.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "qidistudio",
+          "name": "QIDI Studio",
+          "purpose": "QIDI's own slicer, built on the same code family as Bambu Studio.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://qidi3d.com/",
+          "repo_url": "https://github.com/QIDITECH/QIDIStudio",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.07.02.60",
+          "release_date": "2026-08-06",
+          "runs_with": {
+            "bambu_p1s": "no bundled profile",
+            "qidi_xmax3": "yes"
+          },
+          "note": "X-Max 3 profile is in \"X 3 Series\"; no P1S machine profile found.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "prusaslicer",
+          "name": "PrusaSlicer",
+          "purpose": "Prusa Research's slicer, the base many others are forked from.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.prusa3d.com/prusaslicer/",
+          "repo_url": "https://github.com/prusa3d/PrusaSlicer",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "version_2.9.6",
+          "release_date": "2026-06-25",
+          "runs_with": {
+            "bambu_p1s": "not checked",
+            "qidi_xmax3": "not checked"
+          },
+          "note": "Linux is distributed through Flathub only (README). Vendor profiles live in a separate repository, not checked.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "cura",
+          "name": "UltiMaker Cura",
+          "purpose": "UltiMaker's slicer with a large plugin marketplace.",
+          "license": "LGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/Ultimaker/Cura",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "5.13.0",
+          "release_date": "2026-05-28",
+          "runs_with": {
+            "bambu_p1s": "no bundled profile",
+            "qidi_xmax3": "no bundled profile"
+          },
+          "note": "No Bambu or Qidi definition found in resources/definitions; a custom printer can be set up by hand.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "crealityprint",
+          "name": "Creality Print",
+          "purpose": "Creality's slicer, an OrcaSlicer-family fork.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/CrealityOfficial/CrealityPrint",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v7.3.0",
+          "release_date": "2026-10-08",
+          "runs_with": {
+            "bambu_p1s": "yes",
+            "qidi_xmax3": "yes"
+          },
+          "note": "Bundles BBL (P1S) and Qidi (X-Max 3) profiles.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "superslicer",
+          "name": "SuperSlicer",
+          "purpose": "A PrusaSlicer fork with extra tuning settings.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/supermerill/SuperSlicer",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "2.5.59.13",
+          "release_date": "2024-07-01",
+          "runs_with": {
+            "bambu_p1s": "no bundled profile",
+            "qidi_xmax3": "no bundled profile"
+          },
+          "note": "Last release mid-2024; code still pushed in 2026.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "kirimoto",
+          "name": "Kiri:Moto (Grid.Space)",
+          "purpose": "A slicer for FDM, CNC and laser that runs in a web browser.",
+          "license": "MIT",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://grid.space/",
+          "repo_url": "https://github.com/GridSpace/grid-apps",
+          "platforms": [
+            "browser",
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "4.7.3",
+          "release_date": "2026-08-16",
+          "runs_with": {
+            "bambu_p1s": "not checked",
+            "qidi_xmax3": "not checked"
+          },
+          "note": "Also includes Mesh:Tool, a browser mesh editor.",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "cad",
+      "name": "CAD and modelling",
+      "items": [
+        {
+          "id": "freecad",
+          "name": "FreeCAD",
+          "purpose": "Parametric CAD for designing exact mechanical parts.",
+          "license": "LGPL-2.1",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.freecad.org",
+          "repo_url": "https://github.com/FreeCAD/FreeCAD",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "1.1.4",
+          "release_date": "2026-09-28",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "openscad",
+          "name": "OpenSCAD",
+          "purpose": "Builds solid models from a short script, good for parametric parts.",
+          "license": "GPL-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.openscad.org",
+          "repo_url": "https://github.com/openscad/openscad",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "openscad-2021.01",
+          "release_date": "2021-01 (stable); 2026.10 test tags seen",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "COPYING: GPL v2 with a special exception for linking CGAL. Most users run the development snapshots.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "blender",
+          "name": "Blender",
+          "purpose": "General 3-D modelling, sculpting and rendering suite.",
+          "license": "GPL-2.0-or-later",
+          "license_source": "repository licence file",
+          "official_url": "https://www.blender.org",
+          "repo_url": "https://projects.blender.org/blender/blender",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v5.2.2",
+          "release_date": "2026-09-14",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Development lives on projects.blender.org; github.com/blender/blender is the official mirror. Licence read from COPYING and source SPDX headers.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "solvespace",
+          "name": "SolveSpace",
+          "purpose": "Small parametric 2-D/3-D CAD with a constraint solver.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://solvespace.com/",
+          "repo_url": "https://github.com/solvespace/solvespace",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v3.2",
+          "release_date": "2026-03-27",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Release assets seen for Windows and macOS; Linux via distribution packages.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "cadquery",
+          "name": "CadQuery",
+          "purpose": "Python library for writing parametric CAD models as code.",
+          "license": "Apache-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://cadquery.org",
+          "repo_url": "https://github.com/CadQuery/cadquery",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.8.0",
+          "release_date": "2026-06-22",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Runs wherever Python and OCCT run.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "build123d",
+          "name": "build123d",
+          "purpose": "Python CAD-as-code library, a newer alternative to CadQuery.",
+          "license": "Apache-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/gumyr/build123d",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v0.13.0",
+          "release_date": "2026-09-21",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "dune3d",
+          "name": "Dune 3D",
+          "purpose": "Parametric 3-D CAD with a constraint solver, from the Horizon EDA author.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://dune3d.org",
+          "repo_url": "https://github.com/dune3d/dune3d",
+          "platforms": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "latest_release": "v1.4.0",
+          "release_date": "2026-01-28",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Release assets are Windows; Linux and macOS are built from source per the README.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "librecad",
+          "name": "LibreCAD",
+          "purpose": "2-D CAD for drawings and DXF files (useful for laser cutting).",
+          "license": "GPL-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://librecad.org/",
+          "repo_url": "https://github.com/LibreCAD/LibreCAD",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.2.1.5",
+          "release_date": "2026-10-07",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "mesh",
+      "name": "Mesh repair and inspection",
+      "items": [
+        {
+          "id": "meshlab",
+          "name": "MeshLab",
+          "purpose": "Opens, cleans, repairs and simplifies triangle meshes and scans.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://www.meshlab.net",
+          "repo_url": "https://github.com/cnr-isti-vclab/meshlab",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "MeshLab-2025.07",
+          "release_date": "2025-09-26",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "admesh",
+          "name": "ADMesh",
+          "purpose": "Command-line tool that checks and repairs STL files.",
+          "license": "GPL-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://admesh.readthedocs.io/",
+          "repo_url": "https://github.com/admesh/admesh",
+          "platforms": [
+            "Linux",
+            "macOS",
+            "Windows"
+          ],
+          "latest_release": "v0.98.5",
+          "release_date": "2022-11-21",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Small and old but stable; no new release since 2022.",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "firmware",
+      "name": "Printer firmware",
+      "items": [
+        {
+          "id": "klipper",
+          "name": "Klipper",
+          "purpose": "Printer firmware that does the motion maths on a host computer for speed.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.klipper3d.org",
+          "repo_url": "https://github.com/Klipper3d/klipper",
+          "platforms": [
+            "server (Linux, Raspberry Pi)",
+            "printer controller board"
+          ],
+          "latest_release": "v0.13.0",
+          "release_date": "2025-04",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "yes (QIDI fork)"
+          },
+          "note": "The X-Max 3 runs QIDI's modified Klipper and Moonraker (QIDI_MAX3 README). The P1S runs Bambu Lab's own firmware, not Klipper.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "qidi-max3",
+          "name": "QIDI Max3 source (QIDI)",
+          "purpose": "QIDI's published screen/server source and update packages for the X-Max 3.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/QIDITECH/QIDI_MAX3",
+          "platforms": [
+            "printer controller board"
+          ],
+          "latest_release": "Max3_V4.3.15",
+          "release_date": "2024-09-29",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "yes"
+          },
+          "note": "Links QIDI's Klipper fork (github.com/QIDITECH/klipper) and Moonraker fork.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "kalico",
+          "name": "Kalico",
+          "purpose": "A community fork of Klipper with extra features.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://kalico.gg",
+          "repo_url": "https://github.com/KalicoCrew/kalico",
+          "platforms": [
+            "server (Linux, Raspberry Pi)",
+            "printer controller board"
+          ],
+          "latest_release": "v2026.10.00",
+          "release_date": "2026-10-01",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "not checked"
+          },
+          "note": "Replacing QIDI's stock firmware is not something we have tested.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "marlin",
+          "name": "Marlin",
+          "purpose": "The most common firmware on hobby printers' own control boards.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://marlinfw.org",
+          "repo_url": "https://github.com/MarlinFirmware/Marlin",
+          "platforms": [
+            "printer controller board"
+          ],
+          "latest_release": "2.1.2.8",
+          "release_date": "2026-06-25",
+          "runs_with": {
+            "bambu_p1s": "no",
+            "qidi_xmax3": "no"
+          },
+          "note": "Neither of our machines runs Marlin.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "reprapfirmware",
+          "name": "RepRapFirmware",
+          "purpose": "Firmware for Duet control boards.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://www.duet3d.com",
+          "repo_url": "https://github.com/Duet3D/RepRapFirmware",
+          "platforms": [
+            "printer controller board"
+          ],
+          "latest_release": "3.7.0",
+          "release_date": "2026-10-08",
+          "runs_with": {
+            "bambu_p1s": "no",
+            "qidi_xmax3": "no"
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "hosts",
+      "name": "Hosts, farm management and inventory",
+      "items": [
+        {
+          "id": "octoprint",
+          "name": "OctoPrint",
+          "purpose": "Web interface to run and watch a printer from a browser.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://octoprint.org",
+          "repo_url": "https://github.com/OctoPrint/OctoPrint",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "1.11.8",
+          "release_date": "2026-06-23",
+          "runs_with": {
+            "bambu_p1s": "with plugin",
+            "qidi_xmax3": "not checked"
+          },
+          "note": "P1S only through the OctoPrint-BambuPrinter plugin, which its author calls a work in progress.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "octoprint-bambuprinter",
+          "name": "OctoPrint-BambuPrinter",
+          "purpose": "OctoPrint plugin that connects Bambu Lab printers.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/jneilliii/OctoPrint-BambuPrinter",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "0.1.7",
+          "release_date": "2024-09-27",
+          "runs_with": {
+            "bambu_p1s": "yes (experimental)",
+            "qidi_xmax3": null
+          },
+          "note": "README: \"still a work in progress\".",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "moonraker",
+          "name": "Moonraker",
+          "purpose": "The web API server that sits in front of Klipper.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://moonraker.readthedocs.io",
+          "repo_url": "https://github.com/Arksine/moonraker",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "rolling (last tag v0.1.0, 2020)",
+          "release_date": "2020-09-01",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "yes (QIDI fork)"
+          },
+          "note": "Updated from git; no numbered releases.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "mainsail",
+          "name": "Mainsail",
+          "purpose": "Browser interface for Klipper printers, through Moonraker.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://docs.mainsail.xyz",
+          "repo_url": "https://github.com/mainsail-crew/mainsail",
+          "platforms": [
+            "browser",
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v2.19.0",
+          "release_date": "2026-08-27",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "likely"
+          },
+          "note": "The X-Max 3 runs Moonraker; whether QIDI's modified Moonraker accepts it unchanged was not tested.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "fluidd",
+          "name": "Fluidd",
+          "purpose": "Browser interface for Klipper printers, through Moonraker.",
+          "license": "GPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://docs.fluidd.xyz",
+          "repo_url": "https://github.com/fluidd-core/fluidd",
+          "platforms": [
+            "browser",
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v1.37.6",
+          "release_date": "2026-09-23",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "likely"
+          },
+          "note": "Same caveat as Mainsail.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "klipperscreen",
+          "name": "KlipperScreen",
+          "purpose": "Touch-screen interface for Klipper printers.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://klipperscreen.github.io/KlipperScreen/",
+          "repo_url": "https://github.com/KlipperScreen/KlipperScreen",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v0.4.7",
+          "release_date": "2026-05-13",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": "not checked"
+          },
+          "note": "The X-Max 3 already has QIDI's own screen.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "obico",
+          "name": "Obico (self-hosted server)",
+          "purpose": "Watches prints through a camera and stops failures with AI detection.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://obico.io",
+          "repo_url": "https://github.com/TheSpaghettiDetective/obico-server",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "rolling (no releases)",
+          "release_date": null,
+          "runs_with": {
+            "bambu_p1s": "not stated",
+            "qidi_xmax3": "likely"
+          },
+          "note": "The server README names OctoPrint and Klipper/Moonraker; Bambu Lab is not named there.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "fdm-monster",
+          "name": "FDM Monster",
+          "purpose": "Print-farm manager for many printers at once.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://docs.fdm-monster.net/",
+          "repo_url": "https://github.com/fdm-monster/fdm-monster",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "2.1.1",
+          "release_date": "2026-05-14",
+          "runs_with": {
+            "bambu_p1s": "yes (stated)",
+            "qidi_xmax3": "yes (stated)"
+          },
+          "note": "Repository description names OctoPrint, Moonraker, PrusaLink and Bambu Lab. Not yet tested on our machines.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "octofarm",
+          "name": "OctoFarm",
+          "purpose": "Dashboard for many OctoPrint printers.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://octofarm.net",
+          "repo_url": "https://github.com/OctoFarm/OctoFarm",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v1.7.3",
+          "release_date": "2022-10-04",
+          "runs_with": {
+            "bambu_p1s": "no",
+            "qidi_xmax3": "no"
+          },
+          "note": "Last push May 2023: treat as unmaintained. OctoPrint only.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "spoolman",
+          "name": "Spoolman",
+          "purpose": "Keeps an inventory of filament spools and how much is left.",
+          "license": "MIT",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/Donkie/Spoolman",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v0.27.0",
+          "release_date": "2026-09-25",
+          "runs_with": {
+            "bambu_p1s": "not stated",
+            "qidi_xmax3": "yes (via Moonraker)"
+          },
+          "note": "README: integrates with OctoPrint and Klipper/Moonraker.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "ha-bambulab",
+          "name": "Home Assistant Bambu Lab integration",
+          "purpose": "Shows and controls Bambu Lab printers inside Home Assistant.",
+          "license": "MIT",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/greghesp/ha-bambulab",
+          "platforms": [
+            "server (Linux, Raspberry Pi)"
+          ],
+          "latest_release": "v2.2.26",
+          "release_date": "2026-09-12",
+          "runs_with": {
+            "bambu_p1s": "yes",
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "scanning",
+      "name": "3-D scanning and photogrammetry",
+      "items": [
+        {
+          "id": "meshroom",
+          "name": "Meshroom",
+          "purpose": "Builds a 3-D model from a set of ordinary photos.",
+          "license": "MPL-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://meshroom.org",
+          "repo_url": "https://github.com/alicevision/Meshroom",
+          "platforms": [
+            "Windows",
+            "Linux"
+          ],
+          "latest_release": "v2025.1.0",
+          "release_date": "2025-08-25",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Needs an NVIDIA GPU for the dense steps. Licence from COPYING.md.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "colmap",
+          "name": "COLMAP",
+          "purpose": "Works out camera positions and a point cloud from photos.",
+          "license": "BSD-3-Clause",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://colmap.github.io/",
+          "repo_url": "https://github.com/colmap/colmap",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "4.2.1",
+          "release_date": "2026-09-29",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "LICENSE: \"the new BSD license\".",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "openmvs",
+          "name": "OpenMVS",
+          "purpose": "Turns a COLMAP/OpenMVG point cloud into a dense textured mesh.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://cdcseacave.github.io",
+          "repo_url": "https://github.com/cdcseacave/openMVS",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.4.0",
+          "release_date": "2026-01-20",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "openmvg",
+          "name": "OpenMVG",
+          "purpose": "Library for multi-view geometry, the first half of a photogrammetry pipeline.",
+          "license": "MPL-2.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/openMVG/openMVG",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v2.1",
+          "release_date": "2023-12-28",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "laser",
+      "name": "Laser and vector",
+      "items": [
+        {
+          "id": "lasergrbl",
+          "name": "LaserGRBL",
+          "purpose": "Sends images and drawings to GRBL-based diode lasers.",
+          "license": "GPL-3.0-or-later",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "http://lasergrbl.com",
+          "repo_url": "https://github.com/arkypita/LaserGRBL",
+          "platforms": [
+            "Windows"
+          ],
+          "latest_release": "v7.14.1",
+          "release_date": "2025-03-01",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Windows only. Licence from LICENSE.md.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "meerk40t",
+          "name": "MeerK40t",
+          "purpose": "Laser control for K40, GRBL and fibre lasers.",
+          "license": "MIT",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/meerk40t/meerk40t",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "0.9.8100",
+          "release_date": "2025-08-15",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "laserweb4",
+          "name": "LaserWeb4",
+          "purpose": "Browser-based laser and CNC control.",
+          "license": "AGPL-3.0",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/LaserWeb/LaserWeb4",
+          "platforms": [
+            "browser"
+          ],
+          "latest_release": "v4.0.996",
+          "release_date": "2018-06-29",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Last release 2018: treat as unmaintained.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "inkscape",
+          "name": "Inkscape",
+          "purpose": "Vector drawing program, used to prepare laser and cutter paths.",
+          "license": "GPL-3.0-or-later",
+          "license_source": "repository licence file",
+          "official_url": "https://inkscape.org",
+          "repo_url": "https://gitlab.com/inkscape/inkscape",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "1.4.4",
+          "release_date": "2026-05-06",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Source is GPL-2.0-or-later; the complete binaries are GPL-3.0-or-later (COPYING). Date from inkscape.org release page.",
+          "verified": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "items": [
+        {
+          "id": "f3d",
+          "name": "F3D",
+          "purpose": "Fast, minimal 3-D file viewer (STL, OBJ, 3MF, STEP and more).",
+          "license": "BSD-3-Clause",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": "https://f3d.app",
+          "repo_url": "https://github.com/f3d-app/f3d",
+          "platforms": [
+            "Windows",
+            "macOS",
+            "Linux"
+          ],
+          "latest_release": "v3.5.0",
+          "release_date": "2026-04-09",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "Can also generate file-browser thumbnails.",
+          "verified": "2026-10-08"
+        },
+        {
+          "id": "stl-thumb",
+          "name": "stl-thumb",
+          "purpose": "Makes thumbnail pictures of STL files for the file manager.",
+          "license": "MIT",
+          "license_source": "repository licence file (via GitHub)",
+          "official_url": null,
+          "repo_url": "https://github.com/unlimitedbacon/stl-thumb",
+          "platforms": [
+            "Windows",
+            "Linux"
+          ],
+          "latest_release": "v0.5.0",
+          "release_date": "2022-06-02",
+          "runs_with": {
+            "bambu_p1s": null,
+            "qidi_xmax3": null
+          },
+          "note": "No release since 2022.",
+          "verified": "2026-10-08"
+        }
+      ]
+    }
+  ],
+  "closed_but_free": [
+    {
+      "name": "Autodesk Meshmixer",
+      "purpose": "Mesh editing, repair and supports.",
+      "url": "https://meshmixer.com/",
+      "cost": "free",
+      "open_source": false,
+      "note": "Autodesk: \"no longer in development and will not be supported by Autodesk moving forward.\"",
+      "verified": "2026-10-08"
+    },
+    {
+      "name": "Tinkercad",
+      "purpose": "Beginner 3-D design in the browser.",
+      "url": "https://www.tinkercad.com/",
+      "cost": "free",
+      "open_source": false,
+      "note": "Site: \"a free, easy-to-use app for 3D design, electronics, and coding.\"",
+      "verified": "2026-10-08"
+    },
+    {
+      "name": "Onshape Free plan",
+      "purpose": "Browser CAD.",
+      "url": "https://www.onshape.com/en/pricing",
+      "cost": "free plan",
+      "open_source": false,
+      "note": "\"For non-commercial use only. All Onshape Documents are accessible to the public.\" Not usable for paid work.",
+      "verified": "2026-10-08"
+    },
+    {
+      "name": "Microsoft 3D Builder",
+      "purpose": "View and fix STL/3MF on Windows.",
+      "url": "https://apps.microsoft.com/detail/9wzdncrfj3t6",
+      "cost": "free",
+      "open_source": false,
+      "note": "Microsoft Store listing: \"Free download\".",
+      "verified": "2026-10-08"
+    },
+    {
+      "name": "Autodesk Fusion (personal use)",
+      "purpose": "Parametric CAD.",
+      "url": "https://www.autodesk.com/products/fusion-360/personal",
+      "cost": "free for personal use",
+      "open_source": false,
+      "note": "NOT VERIFIED: autodesk.com returned 403. Personal-use licence would not cover a print business.",
+      "verified": null
+    }
+  ]
+}

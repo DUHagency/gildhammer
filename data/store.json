@@ -1,0 +1,1829 @@
+{
+ "mock": true,
+ "generated": "2026-10-13",
+ "categories": [
+  {
+   "id": "printed",
+   "name": "Printed items and parts",
+   "blurb": "Made to order on our printers, in 12 lanes. Every price here is a sample, worked out from material and machine time, until a real unit has been made and timed."
+  },
+  {
+   "id": "printers",
+   "name": "Printers",
+   "blurb": "Machines a small shop can run and resell, including the two we print on. Prices are the maker's list price as seen on the date shown."
+  },
+  {
+   "id": "filament",
+   "name": "Filament and materials",
+   "blurb": "Real spools we print with, from PLA to carbon-fibre nylon, and the dryers that keep them printable."
+  },
+  {
+   "id": "repair",
+   "name": "Printer repair parts",
+   "blurb": "Parts to keep printers running instead of throwing them away. Bambu Lab P1S and QIDI X-Max 3 first, then common parts."
+  }
+ ],
+ "items": [
+  {
+   "id": "lens-gear-ring",
+   "category": "printed",
+   "name": "Follow-focus lens gear ring, sized to your lens",
+   "lane": "film",
+   "price": 17,
+   "price_basis": "sample",
+   "blurb": "A 0.8-module gear ring measured to the barrel of your lens, so a follow focus grips without slipping.",
+   "specs": [
+    "PETG",
+    "about 25 g",
+    "about 1.2 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "cold-shoe-adapter",
+   "category": "printed",
+   "name": "Cold-shoe mount adapter",
+   "lane": "film",
+   "price": 11,
+   "price_basis": "sample",
+   "blurb": "Puts a monitor, light or mic on a cold shoe at the angle you need.",
+   "specs": [
+    "PETG",
+    "about 15 g",
+    "about 0.8 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "monitor-hood",
+   "category": "printed",
+   "name": "Monitor sun hood, 5 to 7 inch",
+   "lane": "film",
+   "price": 35,
+   "price_basis": "sample",
+   "blurb": "Matte black hood made to the outside size of your monitor.",
+   "specs": [
+    "PLA Matte",
+    "about 120 g",
+    "about 4 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "rod-cable-clips",
+   "category": "printed",
+   "name": "15 mm rod cable clips, set of 10",
+   "lane": "film",
+   "price": 15,
+   "price_basis": "sample",
+   "blurb": "Flexible clips that snap onto 15 mm rods and hold cables tidy.",
+   "specs": [
+    "TPU",
+    "about 30 g",
+    "about 1.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "matte-box-flag-set",
+   "category": "printed",
+   "name": "Matte-box flag set",
+   "lane": "film",
+   "price": 50,
+   "price_basis": "sample",
+   "blurb": "Top and side flags for your matte box. ASA so they hold up in a hot car.",
+   "specs": [
+    "ASA",
+    "about 200 g",
+    "about 6 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "fpv-camera-mount",
+   "category": "printed",
+   "name": "FPV action-camera mount",
+   "lane": "rc-drone",
+   "price": 12,
+   "price_basis": "sample",
+   "blurb": "Soft TPU mount that soaks up vibration, made for your frame and camera.",
+   "specs": [
+    "TPU",
+    "about 20 g",
+    "about 1 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-guard-set",
+   "category": "printed",
+   "name": "Prop guard set, 4 pcs",
+   "lane": "rc-drone",
+   "price": 26,
+   "price_basis": "sample",
+   "blurb": "Bolt-on guards for indoor flying, made to your motor spacing.",
+   "specs": [
+    "PETG",
+    "about 80 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "crawler-bumper",
+   "category": "printed",
+   "name": "RC crawler bumper",
+   "lane": "rc-drone",
+   "price": 36,
+   "price_basis": "sample",
+   "blurb": "Carbon-fibre nylon bumper for 1:10 crawlers, made to your chassis mounts.",
+   "specs": [
+    "PA6-CF",
+    "about 60 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "game-box-insert",
+   "category": "printed",
+   "name": "Board-game box insert",
+   "lane": "board-games",
+   "price": 89,
+   "price_basis": "sample",
+   "blurb": "Trays made to your game's box and pieces, so setup takes minutes.",
+   "specs": [
+    "PLA",
+    "about 400 g",
+    "about 14 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "meeple-set",
+   "category": "printed",
+   "name": "Replacement meeples, 50 pcs",
+   "lane": "board-games",
+   "price": 25,
+   "price_basis": "sample",
+   "blurb": "Lost a colour? Replacement pieces made to the original's size.",
+   "specs": [
+    "PLA",
+    "about 60 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "card-trays",
+   "category": "printed",
+   "name": "Card and token trays, 4 pcs",
+   "lane": "board-games",
+   "price": 31,
+   "price_basis": "sample",
+   "blurb": "Stackable trays made to your sleeve size.",
+   "specs": [
+    "PLA Matte",
+    "about 120 g",
+    "about 4 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "chess-set",
+   "category": "printed",
+   "name": "Full chess set with board frame",
+   "lane": "board-games",
+   "price": 103,
+   "price_basis": "sample",
+   "blurb": "32 pieces and a board frame. A complete set, in two colours.",
+   "specs": [
+    "PLA",
+    "about 350 g",
+    "about 16 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "dice-tower",
+   "category": "printed",
+   "name": "Dice tower",
+   "lane": "board-games",
+   "price": 52,
+   "price_basis": "sample",
+   "blurb": "Baffled tower that folds flat into a game box.",
+   "specs": [
+    "PLA",
+    "about 250 g",
+    "about 8 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "trim-clip-set",
+   "category": "printed",
+   "name": "Interior trim clips, 20 pcs",
+   "lane": "car",
+   "price": 19,
+   "price_basis": "sample",
+   "blurb": "Hard-to-find trim clips copied from your broken one. ASA holds up to summer heat in the cabin.",
+   "specs": [
+    "ASA",
+    "about 30 g",
+    "about 1.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "cup-holder-adapter",
+   "category": "printed",
+   "name": "Cup-holder adapter",
+   "lane": "car",
+   "price": 27,
+   "price_basis": "sample",
+   "blurb": "Fits a modern bottle in an older car's cup holder.",
+   "specs": [
+    "ASA",
+    "about 80 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "vent-phone-mount",
+   "category": "printed",
+   "name": "Vent phone mount",
+   "lane": "car",
+   "price": 21,
+   "price_basis": "sample",
+   "blurb": "Made for your car's vent louvres and your phone.",
+   "specs": [
+    "ASA",
+    "about 40 g",
+    "about 2 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "window-crank-handle",
+   "category": "printed",
+   "name": "Window crank handle",
+   "lane": "car",
+   "price": 29,
+   "price_basis": "sample",
+   "blurb": "A carbon-fibre nylon replacement for a discontinued crank. Never sold for brakes, steering or any safety part.",
+   "specs": [
+    "PA6-CF",
+    "about 40 g",
+    "about 2 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "appliance-knob",
+   "category": "printed",
+   "name": "Appliance knob",
+   "lane": "household",
+   "price": 20,
+   "price_basis": "sample",
+   "blurb": "Washer, dryer or radio knob copied from the one that cracked, with the D-shaft fitted.",
+   "specs": [
+    "PETG",
+    "about 20 g",
+    "about 1 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "dishwasher-wheels",
+   "category": "printed",
+   "name": "Dishwasher rack wheels, 8 pcs",
+   "lane": "household",
+   "price": 18,
+   "price_basis": "sample",
+   "blurb": "Rack wheels and axles made to your model, so the rack rolls again.",
+   "specs": [
+    "PETG",
+    "about 25 g",
+    "about 1.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "battery-cover",
+   "category": "printed",
+   "name": "Battery cover",
+   "lane": "household",
+   "price": 17,
+   "price_basis": "sample",
+   "blurb": "Lost the back of a remote or toy? We make the cover to fit.",
+   "specs": [
+    "PLA",
+    "about 8 g",
+    "about 0.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "blind-clips",
+   "category": "printed",
+   "name": "Blind and curtain clips, 10 pcs",
+   "lane": "household",
+   "price": 16,
+   "price_basis": "sample",
+   "blurb": "Valance and blind clips made to the profile of your rail.",
+   "specs": [
+    "PETG",
+    "about 20 g",
+    "about 1 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "vacuum-adapter",
+   "category": "printed",
+   "name": "Vacuum hose adapter",
+   "lane": "household",
+   "price": 26,
+   "price_basis": "sample",
+   "blurb": "Joins a hose or tool from one brand to another.",
+   "specs": [
+    "PETG",
+    "about 90 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-p1s",
+   "category": "printers",
+   "name": "Bambu Lab P1S",
+   "price": 399,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/p1s",
+   "blurb": "Enclosed CoreXY printer, one of the two we print on. AMS-ready for multicolour.",
+   "specs": [
+    "256 x 256 x 256 mm",
+    "enclosed, no chamber heater",
+    "300 C hotend, 100 C bed"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-x-max-3",
+   "category": "printers",
+   "name": "QIDI X-Max 3",
+   "price": 899,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/qidi-x-max-3",
+   "blurb": "Big enclosed printer with a heated chamber, the other one we print on. Discontinued by QIDI and sold out, but parts are still sold.",
+   "specs": [
+    "325 x 325 x 315 mm",
+    "65 C heated chamber",
+    "350 C hotend, 120 C bed",
+    "discontinued"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-p2s-combo",
+   "category": "printers",
+   "name": "Bambu Lab P2S Combo",
+   "price": 749,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/p2s",
+   "blurb": "The P1S's successor, with a hardened nozzle and an AMS 2 Pro in the box.",
+   "specs": [
+    "256 x 256 x 256 mm",
+    "hardened steel nozzle, 300 C",
+    "AMS 2 Pro included"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-a1-combo",
+   "category": "printers",
+   "name": "Bambu Lab A1 Combo",
+   "price": 399,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/a1",
+   "blurb": "Open-frame printer with the AMS lite for four-colour PLA.",
+   "specs": [
+    "256 x 256 x 256 mm",
+    "open frame",
+    "AMS lite included"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-a1-mini",
+   "category": "printers",
+   "name": "Bambu Lab A1 mini",
+   "price": 219,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/a1-mini",
+   "blurb": "Small open-frame printer, a good first machine.",
+   "specs": [
+    "180 x 180 x 180 mm",
+    "open frame"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-h2s",
+   "category": "printers",
+   "name": "Bambu Lab H2S",
+   "price": 1199,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/h2s",
+   "blurb": "Large enclosed printer with a heated chamber.",
+   "specs": [
+    "large format",
+    "heated chamber"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-h2d-laser-10w",
+   "category": "printers",
+   "name": "Bambu Lab H2D Laser Full Combo, 10 W",
+   "price": 2149,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/h2d",
+   "blurb": "Dual-nozzle printer and a laser engraver in one machine.",
+   "specs": [
+    "350 C hotend",
+    "65 C heated chamber",
+    "10 W laser module"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-plus4",
+   "category": "printers",
+   "name": "QIDI Plus4",
+   "price": 649,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/plus4-3d-printer",
+   "blurb": "Enclosed printer with a 65 C heated chamber and 370 C hotend, made for engineering filament.",
+   "specs": [
+    "305 x 305 x 280 mm",
+    "65 C heated chamber",
+    "370 C hotend"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-q2",
+   "category": "printers",
+   "name": "QIDI Q2",
+   "price": 499,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/qidi-q2",
+   "blurb": "Compact enclosed printer with a heated chamber.",
+   "specs": [
+    "270 x 270 x 256 mm",
+    "65 C heated chamber",
+    "370 C hotend"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prusa-core-one",
+   "category": "printers",
+   "name": "Prusa CORE One+ (assembled)",
+   "price": 1202.78,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+   "blurb": "Open-source enclosed printer. The most repairable machine here.",
+   "specs": [
+    "250 x 220 x 270 mm",
+    "55 C heated chamber",
+    "open firmware and CAD"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "elegoo-saturn-4-ultra-16k",
+   "category": "printers",
+   "name": "Elegoo Saturn 4 Ultra 16K (resin)",
+   "price": 649.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.elegoo.com/products/saturn-4-ultra-16k-10inch-monochrome-lcd-resin-3d-printer",
+   "blurb": "Resin printer for miniatures and fine detail.",
+   "specs": [
+    "16K mono LCD",
+    "211 x 118 x 220 mm",
+    "heated vat"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-pla-basic",
+   "category": "filament",
+   "name": "Bambu PLA Basic, 1 kg",
+   "price": 18.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/pla-basic-filament",
+   "blurb": "Everyday PLA for indoor parts, game pieces and prototypes.",
+   "specs": [
+    "PLA",
+    "1.75 mm",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-pla-matte",
+   "category": "filament",
+   "name": "Bambu PLA Matte, 1 kg",
+   "price": 18.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/pla-matte",
+   "blurb": "Matte PLA that hides layer lines. Good for film gear and game pieces.",
+   "specs": [
+    "PLA",
+    "matte",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "polymaker-panchroma-pla",
+   "category": "filament",
+   "name": "Polymaker Panchroma Basic PLA, 1 kg",
+   "price": 18.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.polymaker.com/products/panchroma-pla",
+   "blurb": "PLA in a wide colour range.",
+   "specs": [
+    "PLA",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "sunlu-pla-plus",
+   "category": "filament",
+   "name": "SUNLU PLA+, 1 kg",
+   "price": 10.69,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://store.sunlu.com/products/over-6kg-bundle-sale-pla-and-pla-plus-pla-meta-macaron-filament1kg-roll",
+   "blurb": "Budget PLA+. The low price is on SUNLU's bundle page.",
+   "specs": [
+    "PLA+",
+    "1 kg spool",
+    "bundle pricing"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-petg-hf",
+   "category": "filament",
+   "name": "Bambu PETG HF, 1 kg",
+   "price": 18.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/petg-hf",
+   "blurb": "Tougher than PLA and handles more heat. For household and film parts.",
+   "specs": [
+    "PETG",
+    "high flow",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-asa",
+   "category": "filament",
+   "name": "Bambu ASA, 1 kg",
+   "price": 29.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/asa-filament",
+   "blurb": "UV- and heat-resistant. Made for car and outdoor parts. Needs an enclosure.",
+   "specs": [
+    "ASA",
+    "1 kg spool",
+    "enclosed printer"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "polymaker-asa",
+   "category": "filament",
+   "name": "Polymaker ASA, 1 kg",
+   "price": 24.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.polymaker.com/products/asa",
+   "blurb": "ASA from Polymaker. Also sold in 3 kg.",
+   "specs": [
+    "ASA",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-tpu-for-ams",
+   "category": "filament",
+   "name": "Bambu TPU for AMS, 1 kg",
+   "price": 38.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/tpu-for-ams",
+   "blurb": "Flexible TPU that feeds through an AMS. For mounts, bumpers and grips.",
+   "specs": [
+    "TPU",
+    "flexible",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "polymaker-polyflex-tpu95",
+   "category": "filament",
+   "name": "Polymaker PolyFlex TPU95, 0.75 kg",
+   "price": 29.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.polymaker.com/products/polyflex-tpu95",
+   "blurb": "Flexible TPU at shore 95A.",
+   "specs": [
+    "TPU 95A",
+    "0.75 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-petg-cf",
+   "category": "filament",
+   "name": "Bambu PETG-CF, 1 kg",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/petg-cf",
+   "blurb": "Carbon-fibre PETG: stiff and matte. Needs a hardened nozzle.",
+   "specs": [
+    "PETG-CF",
+    "hardened nozzle",
+    "1 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-pa6-cf",
+   "category": "filament",
+   "name": "Bambu PA6-CF, 1 kg",
+   "price": 79.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/pa6-cf",
+   "blurb": "Carbon-fibre nylon for strong, heat-resistant parts. Dry it before printing.",
+   "specs": [
+    "PA6-CF",
+    "hardened nozzle",
+    "dry first"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-paht-cf",
+   "category": "filament",
+   "name": "Bambu PAHT-CF, 1 kg",
+   "price": 94.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/paht-cf",
+   "blurb": "High-temperature carbon-fibre nylon for under-hood brackets and drone frames.",
+   "specs": [
+    "PAHT-CF",
+    "hardened nozzle",
+    "dry first"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-pa12-cf",
+   "category": "filament",
+   "name": "QIDI PA12-CF",
+   "price": 99.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/qidi-carbon-fiber-filament-pa12-cf",
+   "blurb": "PA12 carbon-fibre nylon, matched to the X-Max 3's heated chamber.",
+   "specs": [
+    "PA12-CF",
+    "hardened nozzle",
+    "dry 80-100 C"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-pc",
+   "category": "filament",
+   "name": "Bambu PC, 1 kg",
+   "price": 39.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/pc-filament",
+   "blurb": "Polycarbonate: tough, clear options, and high heat resistance.",
+   "specs": [
+    "PC",
+    "1 kg spool",
+    "enclosed printer"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-support-pla-petg",
+   "category": "filament",
+   "name": "Bambu Support for PLA/PETG, 0.5 kg",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/support-for-pla-petg",
+   "blurb": "Breakaway support material for clean overhangs.",
+   "specs": [
+    "support",
+    "0.5 kg spool"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "sunlu-filadryer-s4",
+   "category": "filament",
+   "name": "SUNLU FilaDryer S4",
+   "price": 116.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://store.sunlu.com/products/sunlu-filadryer-s4",
+   "blurb": "Dries four spools at once, so nylon and TPU print cleanly.",
+   "specs": [
+    "4 spools",
+    "300 W PTC heater"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "polymaker-polydryer",
+   "category": "filament",
+   "name": "Polymaker PolyDryer (dock and box)",
+   "price": 79.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.polymaker.com/products/filament-dryer",
+   "blurb": "One-spool dryer whose box doubles as sealed storage.",
+   "specs": [
+    "1 spool",
+    "dock and storage box"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-hardened-upgrade-p1",
+   "category": "repair",
+   "name": "Hardened Steel Upgrade Combo, P1 Series",
+   "price": 49.48,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/hardened-steel-upgrade-combo",
+   "blurb": "Hardened 0.4 mm hotend plus hardened extruder gear, so a P1S can print carbon fibre.",
+   "specs": [
+    "P1P / P1S",
+    "hardened steel",
+    "hotend and gear"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-hotend-p1",
+   "category": "repair",
+   "name": "Bambu complete hotend, P1 Series",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/bambu-hotend-p1-series",
+   "blurb": "Complete replacement hotend for the P1S.",
+   "specs": [
+    "P1P / P1S",
+    "0.2-0.8 mm",
+    "300 C"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-extruder-p1",
+   "category": "repair",
+   "name": "Stainless Steel Extruder Unit, P1 Series",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/stainless-steel-extruder-unit-p1-series",
+   "blurb": "Complete replacement extruder for the P1S.",
+   "specs": [
+    "P1P / P1S",
+    "double gear"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-hs-extruder-gear",
+   "category": "repair",
+   "name": "Hardened Steel Extruder Gear Assembly",
+   "price": 19.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/hardened-steel-extruder-gear-assembly",
+   "blurb": "Wear-resistant drive gears for abrasive filament.",
+   "specs": [
+    "X1 / P1 Series",
+    "hardened steel"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-textured-pei-p1",
+   "category": "repair",
+   "name": "Bambu Textured PEI Plate, P1 Series",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/bambu-textured-pei-plate",
+   "blurb": "Spare textured build plate. Parts pop off once it cools.",
+   "specs": [
+    "P1 Series",
+    "textured PEI"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-xy-belt",
+   "category": "repair",
+   "name": "XY Belt, X1 and P1 Series",
+   "price": 11.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/xy-belt",
+   "blurb": "Replacement motion belt. Replace it when you see layer shifts or fraying.",
+   "specs": [
+    "X1 / P1 Series"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-aux-fan",
+   "category": "repair",
+   "name": "Auxiliary Part Cooling Fan, X1 and P1",
+   "price": 29.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/auxiliary-part-cooling-fan",
+   "blurb": "The side fan that cools bridges and overhangs.",
+   "specs": [
+    "X1 / P1 Series"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-heatbed-v3-p1",
+   "category": "repair",
+   "name": "Heatbed Unit V3, P1 Series",
+   "price": 119.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/heatbed-unit-v3-p1-series",
+   "blurb": "Complete heated bed, thermistor included.",
+   "specs": [
+    "P1 Series"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-maintenance-kit",
+   "category": "repair",
+   "name": "Printer Maintenance Kit, X1/P1",
+   "price": 45.8,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/printer-maintenance-kit",
+   "blurb": "Bambu's wear-parts kit for a P1S service.",
+   "specs": [
+    "X1 / P1 Series"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bambu-ptfe-4m",
+   "category": "repair",
+   "name": "PTFE tube, 4 m cut-to-length",
+   "price": 9.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.store.bambulab.com/products/ptfe-tubes",
+   "blurb": "Filament guide tube for the AMS and the toolhead.",
+   "specs": [
+    "P1S",
+    "4000 mm"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-hotend-v25",
+   "category": "repair",
+   "name": "QIDI X-Max 3 hot end V2.5",
+   "price": 34.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/max3-plus3-hot-end-v2-5",
+   "blurb": "Replacement hot end. Required for QIDI's bimetal and tungsten-carbide nozzles.",
+   "specs": [
+    "X-Max 3 / X-Plus 3 / X-Smart 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-hs-nozzle",
+   "category": "repair",
+   "name": "QIDI hardened steel nozzle, 2 pcs",
+   "price": 22.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max-3-x-plus-3-x-smart-3-hardened-steel-nozzle",
+   "blurb": "Hardened nozzles for carbon-fibre filament.",
+   "specs": [
+    "X-Max 3 / Q1 Pro",
+    "0.4 mm",
+    "350 C"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-tc-nozzle",
+   "category": "repair",
+   "name": "QIDI tungsten-carbide bimetal nozzle",
+   "price": 49.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/q1-pro-x-max-3-x-plus-3-tungsten-carbide-bimetal-nozzles-1pc",
+   "blurb": "Longest-wearing nozzle for heavy carbon-fibre use.",
+   "specs": [
+    "X-Max 3",
+    "needs hot end V2.5",
+    "HV1700"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-extruder",
+   "category": "repair",
+   "name": "QIDI X-Max 3 extruder (no hot end)",
+   "price": 29.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max-3-x-plus-3-x-smart-3-extruder-without-hot-end",
+   "blurb": "Replacement extruder with dual hardened gears.",
+   "specs": [
+    "X-Max 3 / X-Plus 3 / X-Smart 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-pei-plate",
+   "category": "repair",
+   "name": "QIDI X-Max 3 double-sided PEI plate",
+   "price": 47.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max3-pei-plate",
+   "blurb": "Spare build plate for the X-Max 3.",
+   "specs": [
+    "X-Max 3",
+    "double-sided PEI"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-chamber-heater",
+   "category": "repair",
+   "name": "QIDI X-Max 3 chamber heater with fan",
+   "price": 19.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max-3-x-plus-3-heater-with-fan",
+   "blurb": "Replacement for the heater that keeps the chamber at 65 C.",
+   "specs": [
+    "X-Max 3 / X-Plus 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-head-cover-fan",
+   "category": "repair",
+   "name": "QIDI X-Max 3 printhead cover with fan",
+   "price": 14.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max3-printhead-cover-includes-small-fan",
+   "blurb": "Front printhead cover with its small fan.",
+   "specs": [
+    "X-Max 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "qidi-xmax3-board-fan",
+   "category": "repair",
+   "name": "QIDI motherboard fan, 5000 RPM",
+   "price": 4.99,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://us.qidi3d.com/products/x-max-3-x-plus-3-motherboard-fan-5000rpm",
+   "blurb": "Keeps the mainboard cool.",
+   "specs": [
+    "X-Max 3 / X-Plus 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "phaetus-conch-p1",
+   "category": "repair",
+   "name": "Phaetus Conch hotend for Bambu X1/P1",
+   "price": 21.9,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://www.phaetus.com/products/conch-hotend%C2%AE-for-bambu-lab-x1-p1-series-wear-resistant-high-flow-hotend",
+   "blurb": "Third-party wear-resistant, high-flow hotend for the P1S.",
+   "specs": [
+    "X1 / P1 Series",
+    "0.2-0.8 mm"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "gates-2gt-belt",
+   "category": "repair",
+   "name": "Gates 2GT belt, 6 mm, per metre",
+   "price": 4.9,
+   "price_basis": "msrp-2026-10-08",
+   "source_url": "https://www.filastruder.com/products/gates-2gt-belts",
+   "blurb": "Genuine Gates belt for most RepRap-style printers. Sold by length.",
+   "specs": [
+    "2GT",
+    "6 mm wide",
+    "$0.49 per 100 mm"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "hnefatafl-set",
+   "category": "printed",
+   "name": "Hnefatafl set: 11 × 11 board and 37 pieces",
+   "lane": "nordic",
+   "price": 79,
+   "price_basis": "sample",
+   "blurb": "The Viking board game: a king and his defenders against the attackers, on a board that splits in two for the bag. Our own design, two colours.",
+   "specs": [
+    "PLA",
+    "about 330 g",
+    "about 13 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "viking-chess",
+   "category": "printed",
+   "name": "Viking chess set, carved-look pieces",
+   "lane": "nordic",
+   "price": 95,
+   "price_basis": "sample",
+   "blurb": "Thirty-two pieces in the spirit of the old carved sets, drawn new by us: kings on thrones, berserkers for rooks.",
+   "specs": [
+    "PLA Matte",
+    "about 300 g",
+    "about 15 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "longship-model",
+   "category": "printed",
+   "name": "Longship display model, about 30 cm",
+   "lane": "nordic",
+   "price": 48,
+   "price_basis": "sample",
+   "blurb": "A Viking longship with a striped sail and shield rail, for the shelf or the mantel.",
+   "specs": [
+    "PLA",
+    "about 180 g",
+    "about 8 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "rune-set",
+   "category": "printed",
+   "name": "Elder Futhark rune set, 24 stones and a box",
+   "lane": "nordic",
+   "price": 24,
+   "price_basis": "sample",
+   "blurb": "The twenty-four runes of the elder row, raised on stone-grey tiles, with a lidded box to keep them.",
+   "specs": [
+    "PLA Matte",
+    "about 70 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "mjolnir-pendant",
+   "category": "printed",
+   "name": "Mjölnir pendant or key ring",
+   "lane": "nordic",
+   "price": 9,
+   "price_basis": "sample",
+   "blurb": "Thor's hammer with knotwork on the head. Pick a cord loop or a key-ring loop.",
+   "specs": [
+    "PETG",
+    "about 10 g",
+    "about 0.6 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "knot-coasters",
+   "category": "printed",
+   "name": "Knotwork coasters, set of four",
+   "lane": "nordic",
+   "price": 24,
+   "price_basis": "sample",
+   "blurb": "Interlace in the old animal style, raised on a round coaster with a cork-friendly back. For under a cup, never for food.",
+   "specs": [
+    "PETG",
+    "about 90 g",
+    "about 3.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "dala-horse",
+   "category": "printed",
+   "name": "Dala horse, 12 cm",
+   "lane": "nordic",
+   "price": 16,
+   "price_basis": "sample",
+   "blurb": "The Swedish carved horse in Falu red with its harness drawn on, made to stand on a sill.",
+   "specs": [
+    "PLA",
+    "about 45 g",
+    "about 2 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "tomte-trio",
+   "category": "printed",
+   "name": "Tomte, set of three for Yule",
+   "lane": "nordic",
+   "price": 22,
+   "price_basis": "sample",
+   "blurb": "Three little house gnomes in tall hats to guard the house through winter.",
+   "specs": [
+    "PLA",
+    "about 65 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "advent-arch",
+   "category": "printed",
+   "name": "Candle arch for battery tea lights",
+   "lane": "nordic",
+   "price": 42,
+   "price_basis": "sample",
+   "blurb": "A seven-light window arch in the Swedish way. Holds battery tea lights only; never a flame.",
+   "specs": [
+    "PETG",
+    "about 170 g",
+    "about 7 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "yggdrasil-plaque",
+   "category": "printed",
+   "name": "Yggdrasil wall plaque, 25 cm",
+   "lane": "nordic",
+   "price": 34,
+   "price_basis": "sample",
+   "blurb": "The world tree with roots and branches meeting in a ring, for the wall over the hearth.",
+   "specs": [
+    "PLA Matte",
+    "about 120 g",
+    "about 5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "longhouse-terrain",
+   "category": "printed",
+   "name": "Longhouse terrain for the tabletop, 28–32 mm scale",
+   "lane": "nordic",
+   "price": 68,
+   "price_basis": "sample",
+   "blurb": "A Viking longhouse with a roof that lifts off, sized for 40k, Age of Sigmar and D&D tables.",
+   "specs": [
+    "PLA",
+    "about 420 g",
+    "about 15 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "runestone-terrain",
+   "category": "printed",
+   "name": "Runestone terrain, set of five",
+   "lane": "nordic",
+   "price": 24,
+   "price_basis": "sample",
+   "blurb": "Standing stones carved with runes and knotwork, for a battlefield or a dungeon crawl.",
+   "specs": [
+    "PLA Matte",
+    "about 95 g",
+    "about 4 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "shield-plaque",
+   "category": "printed",
+   "name": "Round shield wall plaque, 25 cm",
+   "lane": "nordic",
+   "price": 44,
+   "price_basis": "sample",
+   "blurb": "A painted-look round shield with boss and planks, for display on the wall. Not for wearing or fighting.",
+   "specs": [
+    "PLA",
+    "about 210 g",
+    "about 8 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "longhouse-dice-tower",
+   "category": "printed",
+   "name": "Longhouse dice tower",
+   "lane": "nordic",
+   "price": 52,
+   "price_basis": "sample",
+   "blurb": "Drop the dice in the smoke hole; they tumble out the front door.",
+   "specs": [
+    "PLA",
+    "about 240 g",
+    "about 9 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "makeup-drawer-insert",
+   "category": "printed",
+   "name": "Makeup drawer insert, measured to your drawer",
+   "lane": "vanity",
+   "price": 49,
+   "price_basis": "sample",
+   "blurb": "Trays cut to the inside of your own drawer, with wells sized to what you own: foundation, compacts, pencils, brushes. Printed in tiles that lock together.",
+   "specs": [
+    "PLA Matte",
+    "about 220 g",
+    "about 9 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "lipstick-tower",
+   "category": "printed",
+   "name": "Lipstick and lip-gloss tower, 24 slots",
+   "lane": "vanity",
+   "price": 34,
+   "price_basis": "sample",
+   "blurb": "A stepped tower that holds 24 tubes upright with every label facing out. Slot sizes set to your brands.",
+   "specs": [
+    "PLA",
+    "about 160 g",
+    "about 6 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "brush-holder",
+   "category": "printed",
+   "name": "Makeup brush holder with drip-dry rack",
+   "lane": "vanity",
+   "price": 24,
+   "price_basis": "sample",
+   "blurb": "A cup for brushes in use and a rack that holds washed brushes bristles-down so water runs off, not into the ferrule.",
+   "specs": [
+    "PETG",
+    "about 110 g",
+    "about 4 h print",
+    "wipes clean"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "palette-rack",
+   "category": "printed",
+   "name": "Eyeshadow palette rack, slots sized to your palettes",
+   "lane": "vanity",
+   "price": 38,
+   "price_basis": "sample",
+   "blurb": "Stands palettes on edge like books so you can pull one without unstacking the rest. Tell us the palettes; we size each slot.",
+   "specs": [
+    "PLA Matte",
+    "about 180 g",
+    "about 7 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "makeup-carousel",
+   "category": "printed",
+   "name": "Rotating makeup carousel, three tiers",
+   "lane": "vanity",
+   "price": 79,
+   "price_basis": "sample",
+   "blurb": "A lazy-Susan base and three tiers that turn on their own, for a counter where everything has to be in reach.",
+   "specs": [
+    "PETG",
+    "about 480 g",
+    "about 16 h print",
+    "printed on the X-Max 3"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "nail-polish-rack",
+   "category": "printed",
+   "name": "Nail polish wall rack, 30 bottles",
+   "lane": "vanity",
+   "price": 44,
+   "price_basis": "sample",
+   "blurb": "Three shelves with a lip, screwed to the wall, so every colour is seen at once. Shelf depth set to your bottles.",
+   "specs": [
+    "PLA",
+    "about 260 g",
+    "about 9 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "draugr-mask",
+   "category": "printed",
+   "name": "Draugr mask: the Norse undead, full face",
+   "lane": "halloween",
+   "price": 64,
+   "price_basis": "sample",
+   "blurb": "A barrow-wight's face in weathered bone, our own design. Wide eye openings for side vision, vents at the nose and mouth, a padded TPU strap. Adult size.",
+   "specs": [
+    "PLA Matte",
+    "about 260 g",
+    "about 12 h print",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "plague-doctor-mask",
+   "category": "printed",
+   "name": "Plague doctor mask",
+   "lane": "halloween",
+   "price": 58,
+   "price_basis": "sample",
+   "blurb": "The long-beaked mask, hollow and light, with a vented beak and wide eye rings. Adult size; lenses left open, never glazed.",
+   "specs": [
+    "PLA Matte",
+    "about 240 g",
+    "about 11 h print",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "skull-half-mask",
+   "category": "printed",
+   "name": "Skull half mask, open jaw",
+   "lane": "halloween",
+   "price": 32,
+   "price_basis": "sample",
+   "blurb": "Covers the eyes and nose and stops at the lip, so you can talk, drink and eat in it all night. Adult size.",
+   "specs": [
+    "PLA",
+    "about 120 g",
+    "about 5 h print",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "jack-o-lantern-mask",
+   "category": "printed",
+   "name": "Jack-o'-lantern mask",
+   "lane": "halloween",
+   "price": 48,
+   "price_basis": "sample",
+   "blurb": "A carved pumpkin face in orange, the grin cut open for air. Adult size.",
+   "specs": [
+    "PLA",
+    "about 200 g",
+    "about 9 h print",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "fenris-wolf-mask",
+   "category": "printed",
+   "name": "Fenris wolf mask",
+   "lane": "halloween",
+   "price": 68,
+   "price_basis": "sample",
+   "blurb": "The bound wolf of the Norse end of the world, faceted and low-poly, painted or left raw. Adult size.",
+   "specs": [
+    "PLA Matte",
+    "about 280 g",
+    "about 13 h print",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "krampus-mask",
+   "category": "printed",
+   "name": "Krampus mask with curled horns",
+   "lane": "halloween",
+   "price": 85,
+   "price_basis": "sample",
+   "blurb": "Horns printed separately and pinned on, so it wears from Halloween through Yule. Adult size.",
+   "specs": [
+    "PLA",
+    "about 380 g",
+    "about 17 h print",
+    "printed on the X-Max 3",
+    "TPU strap"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "masquerade-mask",
+   "category": "printed",
+   "name": "Masquerade half mask, filigree",
+   "lane": "halloween",
+   "price": 22,
+   "price_basis": "sample",
+   "blurb": "Thin knotwork lace over the eyes, light enough to forget you are wearing it. Ribbon ties.",
+   "specs": [
+    "PETG",
+    "about 40 g",
+    "about 2.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "fitted-mask",
+   "category": "printed",
+   "name": "Any of our masks fitted to your face",
+   "lane": "halloween",
+   "price": 95,
+   "price_basis": "sample",
+   "blurb": "Send a phone face scan and we fit the inside of the mask to it: no pressure on the nose, no gap at the cheek. Priced from here.",
+   "specs": [
+    "PLA Matte",
+    "about 280 g",
+    "about 14 h print",
+    "fitted from a phone scan"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "grid-baseplate",
+   "category": "printed",
+   "name": "Gridfinity baseplate, cut to your drawer",
+   "lane": "organize",
+   "price": 16,
+   "price_basis": "sample",
+   "blurb": "The open 42 mm grid, sized to the inside of your drawer to the millimetre, in as many pieces as your printer bed needs. Bins click in anywhere.",
+   "specs": [
+    "PLA",
+    "about 120 g",
+    "about 4 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "grid-bins",
+   "category": "printed",
+   "name": "Gridfinity bins, set of 12 mixed sizes",
+   "lane": "organize",
+   "price": 22,
+   "price_basis": "sample",
+   "blurb": "Small, long and deep bins with label lips and scoop fronts, for screws, bits, SD cards and everything that rattles.",
+   "specs": [
+    "PLA",
+    "about 260 g",
+    "about 9 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "drawer-dividers",
+   "category": "printed",
+   "name": "Drawer dividers measured to your drawer",
+   "lane": "organize",
+   "price": 18,
+   "price_basis": "sample",
+   "blurb": "Interlocking slats for a kitchen or desk drawer that no store divider fits. Send the inside measurements; we send the grid.",
+   "specs": [
+    "PETG",
+    "about 150 g",
+    "about 5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "pegboard-set",
+   "category": "printed",
+   "name": "Pegboard hooks and holders, set of 15",
+   "lane": "organize",
+   "price": 14,
+   "price_basis": "sample",
+   "blurb": "Hooks, cups, a screwdriver rack and a plier holder for standard 1/4-inch-hole pegboard, locking so they do not lift off.",
+   "specs": [
+    "PETG",
+    "about 140 g",
+    "about 5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bit-tray",
+   "category": "printed",
+   "name": "Driver bit and drill index, made to your set",
+   "lane": "organize",
+   "price": 12,
+   "price_basis": "sample",
+   "blurb": "One slot per bit, sized and labelled, so the 3 mm is always where the 3 mm goes.",
+   "specs": [
+    "PLA",
+    "about 70 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "cable-clips",
+   "category": "printed",
+   "name": "Under-desk cable trays and clips, set of 10",
+   "lane": "organize",
+   "price": 10,
+   "price_basis": "sample",
+   "blurb": "Screw-on clips and two short trays that keep chargers and power strips off the floor.",
+   "specs": [
+    "PETG",
+    "about 90 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "spool-shelf",
+   "category": "printed",
+   "name": "Wall spool rack for filament, yarn or wire",
+   "lane": "organize",
+   "price": 24,
+   "price_basis": "sample",
+   "blurb": "A wall rail with axle arms that hold spools you can still turn and pull from.",
+   "specs": [
+    "PETG",
+    "about 220 g",
+    "about 7 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-runestone",
+   "category": "printed",
+   "name": "Hollow runestone for set dressing",
+   "lane": "props",
+   "price": 65,
+   "price_basis": "sample",
+   "blurb": "A carved-look stone a person can carry, printed in sections around a light infill, primed for paint. The rune band reads what you choose, spelled correctly in the Younger Futhark.",
+   "specs": [
+    "PLA",
+    "about 1.4 kg",
+    "about 40 h print",
+    "primed, unpainted"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-helmet",
+   "category": "printed",
+   "name": "Spectacle helmet, costume piece",
+   "lane": "props",
+   "price": 85,
+   "price_basis": "sample",
+   "blurb": "A rounded cap with the eye-guard of the one tenth-century helmet found whole in Norway. No horns: no Viking helmet ever had them. Costume only: it protects nothing.",
+   "specs": [
+    "PLA",
+    "about 600 g",
+    "about 22 h print",
+    "not protective equipment"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-axe",
+   "category": "printed",
+   "name": "Bearded axe, blunt prop head",
+   "lane": "props",
+   "price": 35,
+   "price_basis": "sample",
+   "blurb": "A bearded axe head with no edge, made to slide onto a wooden haft you supply or we cut. For the screen and the stage, not for chopping.",
+   "specs": [
+    "PLA",
+    "about 180 g",
+    "about 6 h print",
+    "no edge"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-lantern",
+   "category": "printed",
+   "name": "Period lantern shell for an LED candle",
+   "lane": "props",
+   "price": 26,
+   "price_basis": "sample",
+   "blurb": "A horn-window lantern look with a slot for a battery tea light, so the fire on set never needs a fire marshal.",
+   "specs": [
+    "PETG",
+    "about 160 g",
+    "about 6 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-radio",
+   "category": "printed",
+   "name": "Dummy two-way radio and hero phone shells",
+   "lane": "props",
+   "price": 19,
+   "price_basis": "sample",
+   "blurb": "Non-working shells for background actors: weighted, painted, clipped to a belt. Nothing inside to break.",
+   "specs": [
+    "PLA",
+    "about 90 g",
+    "about 3 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-greebles",
+   "category": "printed",
+   "name": "Sci-fi panel greebles, set dressing kit",
+   "lane": "props",
+   "price": 28,
+   "price_basis": "sample",
+   "blurb": "Vents, pipes, knobs and panels to glue onto a flat for a ship interior or a control room.",
+   "specs": [
+    "PLA",
+    "about 300 g",
+    "about 10 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "prop-rentals",
+   "category": "printed",
+   "name": "A prop from your script, to order",
+   "lane": "props",
+   "price": null,
+   "price_basis": "sample",
+   "blurb": "Send the scene and a reference picture. We quote it like any other part: measured, printed, primed, and the hard parts said up front.",
+   "specs": [
+    "ask for a quote"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-flintlock",
+   "category": "printed",
+   "name": "Flintlock pistol, display replica",
+   "lane": "replicas",
+   "price": 48,
+   "price_basis": "sample",
+   "blurb": "A solid, one-piece flintlock in the style of the 1700s, our own drawing: no bore, no lock that moves, nothing that opens. Designs from before 1898 are outside the federal marking rule; we still print the muzzle closed.",
+   "specs": [
+    "PLA",
+    "about 260 g",
+    "about 9 h print",
+    "solid, non-firing"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-revolver",
+   "category": "printed",
+   "name": "Frontier revolver, stage prop",
+   "lane": "replicas",
+   "price": 42,
+   "price_basis": "sample",
+   "blurb": "A six-shooter for the stage, drawn new by us, solid through, with a blaze-orange plug fixed in the muzzle.",
+   "specs": [
+    "PLA",
+    "about 230 g",
+    "about 8 h print",
+    "blaze-orange muzzle plug"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-blaster",
+   "category": "printed",
+   "name": "Sci-fi blaster, our own design",
+   "lane": "replicas",
+   "price": 38,
+   "price_basis": "sample",
+   "blurb": "A blaster from no film but ours, for cosplay and the screen. Printed with an orange band at the muzzle, or whole in a bright colour if you prefer.",
+   "specs": [
+    "PLA",
+    "about 300 g",
+    "about 10 h print",
+    "orange muzzle band or bright body"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-rifle",
+   "category": "printed",
+   "name": "Stage rifle, two-piece, solid",
+   "lane": "replicas",
+   "price": 75,
+   "price_basis": "sample",
+   "blurb": "A long gun for theatre and film background, solid, in two halves joined on a steel rod, with an orange band at the muzzle.",
+   "specs": [
+    "PLA",
+    "about 900 g",
+    "about 30 h print",
+    "orange muzzle band"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-minis",
+   "category": "printed",
+   "name": "Miniature weapons for figures and dolls",
+   "lane": "replicas",
+   "price": 9,
+   "price_basis": "sample",
+   "blurb": "Swords, axes and guns for 1/6-scale figures and smaller, every piece under 38 by 70 mm, the size the marking rule leaves out.",
+   "specs": [
+    "resin or PLA",
+    "set of 12",
+    "each under 38 x 70 mm"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "replica-unmarked",
+   "category": "printed",
+   "name": "Unmarked piece for a production, with a waiver",
+   "lane": "replicas",
+   "price": null,
+   "price_basis": "sample",
+   "blurb": "A gun prop with no orange marking ships only to a film, television or theatre production that holds a waiver from the Consumer Product Safety Commission for that piece. We keep a copy of the waiver. Ask first.",
+   "specs": [
+    "ask for a quote",
+    "CPSC waiver required"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bottle-cap",
+   "category": "printed",
+   "name": "Water bottle top, made to your bottle's thread",
+   "lane": "kitchen",
+   "price": 14,
+   "price_basis": "sample",
+   "blurb": "Lost or cracked the cap? We measure the neck and print a top that screws on and seals. Hand wash; replace it when it scuffs, because scratches hold bacteria.",
+   "specs": [
+    "food-contact PETG (FDA 21 CFR resin)",
+    "stainless nozzle, kept for food work",
+    "about 10 g",
+    "about 0.5 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "bottle-cap-loop",
+   "category": "printed",
+   "name": "Water bottle top with carry loop",
+   "lane": "kitchen",
+   "price": 16,
+   "price_basis": "sample",
+   "blurb": "The same fitted top with a loop to clip to a bag. Your name on it if you like.",
+   "specs": [
+    "food-contact PETG (FDA 21 CFR resin)",
+    "stainless nozzle, kept for food work",
+    "about 14 g",
+    "about 0.7 h print"
+   ],
+   "stock": "mock"
+  },
+  {
+   "id": "food-grade-print",
+   "category": "printed",
+   "name": "Food-grade printing, made to order",
+   "lane": "kitchen",
+   "price": null,
+   "price_basis": "quote",
+   "blurb": "Cookie cutters, stamps, scoops, lids and other short-contact kitchen pieces, printed only in food-contact filament on a nozzle kept for food. A print is not dishwasher-proof and is not certified food-safe: we say so on every order. Quoted per piece.",
+   "specs": [
+    "food-contact PETG (FDA 21 CFR resin)",
+    "stainless nozzle, kept for food work",
+    "short contact, hand wash",
+    "quoted"
+   ],
+   "stock": "mock"
+  }
+ ]
+}

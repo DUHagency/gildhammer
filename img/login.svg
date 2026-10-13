@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100"><!-- Log in: a Viking door key, iron with a ring bow. Drawn here, 2026-10-09. -->
+<circle cx="50" cy="50" r="20" fill="none" stroke="#2e2419" stroke-width="9"/>
+<circle cx="50" cy="50" r="20" fill="none" stroke="#9c968a" stroke-width="4"/>
+<path d="M70 46 H136 V54 H70 Z" fill="#9c968a" stroke="#2e2419" stroke-width="2.5"/>
+<path d="M114 54 V72 H122 V62 H128 V72 H136 V54" fill="#9c968a" stroke="#2e2419" stroke-width="2.5"/>
+<circle cx="50" cy="50" r="6" fill="#a33a28"/>
+</svg>

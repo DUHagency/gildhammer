@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ohio map — Gildhammer</title>
+<meta name="description" content="A map of the makerspaces, fab labs, library maker labs and campus maker spaces found in Ohio, and the game stores, comic shops and computer stores on OpenStreetMap, by county.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="js/app.js" defer></script>
+<script src="js/map.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html">Software</a></li>
+    <li><a href="map.html" aria-current="page">Map</a></li>
+    <li><a href="games.html">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html">Shipping</a></li>
+    <li><a href="quote.html">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/map.svg" alt="">
+    <h1>Ohio map</h1>
+    <p class="lede">Every makerspace, fab lab, library maker lab and campus maker space we could find in Ohio, county by county — most have a 3-D printer you can learn on — and the game stores, comic and anime shops and computer stores that are on OpenStreetMap: where the minis, the paint and the parts are.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <div class="filters" id="kinds" role="group" aria-label="Kind of place"></div>
+  <div class="mapwrap"><svg id="map" role="img" aria-label="Map of Ohio's 88 counties with each makerspace, game store, comic shop and computer store marked"></svg><div class="tip" id="tip"></div></div>
+  <div class="legend" id="legend"></div>
+  <input class="find" id="find" type="search" placeholder="Find a town, a county, a name…" aria-label="Find a makerspace or store">
+  <p class="count" id="count" aria-live="polite">Loading…</p>
+  <div id="list"></div>
+  <p class="intro">The stores come from OpenStreetMap, a map anyone can edit, not from a canvass of every county: a store nobody has mapped is missing, and one that has since closed may still show. A store not here is not a store that does not exist — <a href="quote.html">tell us</a> and we will add it.</p>
+  <p class="intro" id="sources"></p>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

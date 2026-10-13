@@ -1,0 +1,610 @@
+{
+  "checked": "2026-10-09",
+  "native": [],
+  "arcade": [
+    {
+      "slug": "carpolo",
+      "title": "Car Polo",
+      "year": 1977,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/carpolo/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Car Polo have been made available for free, non-commercial use.",
+      "sets": [
+        "carpolo"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "circus",
+      "title": "Circus",
+      "year": 1977,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/circus/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Circus have been made available for free, non-commercial use.",
+      "sets": [
+        "circus",
+        "circuso"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "robotbwl",
+      "title": "Robot Bowl",
+      "year": 1977,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/robotbwl/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Robot Bowl have been made available for free, non-commercial use.",
+      "sets": [
+        "robotbwl"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "crash",
+      "title": "Crash",
+      "year": 1979,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/crash/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Crash have been made available for free, non-commercial use.",
+      "sets": [
+        "crash"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "fireone",
+      "title": "Fire One",
+      "year": 1979,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/fireone/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Fire One have been made available for free, non-commercial use.",
+      "sets": [
+        "fireone"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "ripcord",
+      "title": "Rip Cord",
+      "year": 1979,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/ripcord/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Rip Cord have been made available for free, non-commercial use.",
+      "sets": [
+        "ripcord"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "sidetrac",
+      "title": "Side Trak",
+      "year": 1979,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/sidetrac/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Side Trax have been made available for free, non-commercial use.",
+      "sets": [
+        "sidetrac"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "starfire",
+      "title": "Star Fire",
+      "year": 1979,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/starfire/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Star Fire have been made available for free, non-commercial use.",
+      "sets": [
+        "starfire",
+        "starfirea",
+        "starfir2"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "spectar",
+      "title": "Spectar",
+      "year": 1980,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/spectar/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Spectar have been made available for free, non-commercial use.",
+      "sets": [
+        "spectar"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "targ",
+      "title": "Targ",
+      "year": 1980,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/targ/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Targ have been made available for free, non-commercial use.",
+      "sets": [
+        "targ"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "robby",
+      "title": "Robby Roto",
+      "year": 1981,
+      "maker": "Bally/Midway",
+      "group": "Other",
+      "rom_from": "https://www.mamedev.org/roms/robby/",
+      "credit": "Thanks to the kind generosity of Jamie Fenton, the original ROM images for Robby Roto have been made available for free, non-commercial use.",
+      "sets": [
+        "robby"
+      ],
+      "playable": true,
+      "released_by": "Jamie Fenton",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "supertnk",
+      "title": "Super Tank",
+      "year": 1981,
+      "maker": "Video Games GmbH",
+      "group": "Other",
+      "rom_from": "https://www.mamedev.org/roms/supertnk/",
+      "credit": "Thanks to the kind generosity of Reinhard Stompe, founder of Video Games GmbH, the original ROM images for Super Tank have been made available for free, non-commercial use.",
+      "sets": [
+        "supertnk"
+      ],
+      "playable": true,
+      "released_by": "Reinhard Stompe, founder of Video Games GmbH",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "gridlee",
+      "title": "Gridlee",
+      "year": 1982,
+      "maker": "Videa, Inc.",
+      "group": "Other",
+      "rom_from": "https://www.mamedev.org/roms/gridlee/",
+      "credit": "Thanks to the kind generosity of the three co-founders of Videa—Howard Delman, Ed Rotberg, and Roger Hector—the original ROM images from the only existing Gridlee machine have been made available for free, non-commercial use.",
+      "sets": [
+        "gridlee"
+      ],
+      "playable": true,
+      "tested": "2026-10-09",
+      "released_by": "Videa's co-founders Howard Delman, Ed Rotberg and Roger Hector"
+    },
+    {
+      "slug": "hardhat",
+      "title": "Hard Hat",
+      "year": 1982,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/hardhat/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Hard Hat have been made available for free, non-commercial use.",
+      "sets": [
+        "hardhat"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "looping",
+      "title": "Looping",
+      "year": 1982,
+      "maker": "Video Games GmbH",
+      "group": "Other",
+      "rom_from": "https://www.mamedev.org/roms/looping/",
+      "credit": "Thanks to the kind generosity of Reinhard Stompe, founder of Video Games GmbH, the original ROM images for Looping have been made available for free, non-commercial use.",
+      "sets": [
+        "looping"
+      ],
+      "playable": true,
+      "released_by": "Reinhard Stompe, founder of Video Games GmbH",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "teetert",
+      "title": "Teeter Torture",
+      "year": 1982,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/teetert/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Teeter Torture have been made available for free, non-commercial use.",
+      "sets": [
+        "teetert"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "victory",
+      "title": "Victory",
+      "year": 1982,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/victory/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Victory have been made available for free, non-commercial use.",
+      "sets": [
+        "victory",
+        "victorba"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "fax",
+      "title": "FAX",
+      "year": 1983,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/fax/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for FAX have been made available for free, non-commercial use.",
+      "sets": [
+        "fax",
+        "fax2"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "alienar",
+      "title": "Alien Arena",
+      "year": 1985,
+      "maker": "Duncan Brown",
+      "group": "Other",
+      "rom_from": "https://www.mamedev.org/roms/alienar/",
+      "credit": "Thanks to the kind generosity of Duncan Brown, the original ROM images for Alien Arena have been made available for free, non-commercial use.",
+      "sets": [
+        "alienar"
+      ],
+      "playable": true,
+      "released_by": "Duncan Brown",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "topgunnr",
+      "title": "Top Gunner",
+      "year": 1986,
+      "maker": "Exidy",
+      "group": "Exidy",
+      "rom_from": "https://www.mamedev.org/roms/topgunnr/",
+      "credit": "Thanks to the kind generosity of H.R. Kauffman, founder of Exidy and later president of the holding company Xidy, Inc., the original ROM images for Top Gunner have been made available for free, non-commercial use.",
+      "sets": [
+        "topgunnr"
+      ],
+      "playable": true,
+      "released_by": "H.R. Kauffman, founder of Exidy",
+      "tested": "2026-10-09"
+    },
+    {
+      "slug": "falcnwld",
+      "title": "Falcons Wild - World Wide Poker",
+      "year": 1990,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/falcnwld/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Falcons Wild - World Wide Poker have been made available for free, non-commercial use.",
+      "sets": [
+        "falcnwlda",
+        "falcnwldb"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "witchcrd",
+      "title": "Witch Card",
+      "year": 1991,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/witchcrd/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Witch Card have been made available for free, non-commercial use.",
+      "sets": [
+        "witchcrde"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "witchgme",
+      "title": "Witch Game",
+      "year": 1991,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/witchgme/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Witch Game have been made available for free, non-commercial use.",
+      "sets": [
+        "witchgme"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "wstrike",
+      "title": "Witch Strike",
+      "year": 1992,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/wstrike/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Witch Strike have been made available for free, non-commercial use.",
+      "sets": [
+        "wstrike",
+        "wstrikea"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "witchjol",
+      "title": "Jolli Witch",
+      "year": 1994,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/witchjol/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Jolli Witch have been made available for free, non-commercial use.",
+      "sets": [
+        "witchjol"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "wtchjack",
+      "title": "Witch Jack",
+      "year": 1996,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/wtchjack/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Witch Jack have been made available for free, non-commercial use.",
+      "sets": [
+        "wtchjack",
+        "wtchjacka",
+        "wtchjackb"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "wupndown",
+      "title": "Witch Up & Down",
+      "year": 1998,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/wupndown/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Witch Up & Down have been made available for free, non-commercial use.",
+      "sets": [
+        "wupndown",
+        "wupndowna",
+        "wupndownb",
+        "wupndownc",
+        "wupndownd"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    },
+    {
+      "slug": "wldwitch",
+      "title": "Wild Witch",
+      "year": 2001,
+      "maker": "Video Klein",
+      "group": "Video Klein",
+      "rom_from": "https://www.mamedev.org/roms/wldwitch/",
+      "credit": "Thanks to the kind generosity of Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH, the original ROM images for Wild Witch have been made available for free, non-commercial use.",
+      "sets": [
+        "wldwitch",
+        "wldwitcha",
+        "wldwitchc",
+        "wldwitchd",
+        "wldwitchf",
+        "wldwitchg",
+        "wldwitchh",
+        "wldwitchi",
+        "wldwitchj",
+        "wldwitchk",
+        "wldwitchl",
+        "wldwitchm",
+        "wldwitchn",
+        "wldwitcho",
+        "wldwitchp",
+        "wldwitchq",
+        "wldwitchr",
+        "wldwitchs",
+        "wldwitcht",
+        "wldwitchu",
+        "wldwitchv"
+      ],
+      "playable": true,
+      "released_by": "Wolfgang Nottebaum, managing director of Video Klein Automatenbau GmbH",
+      "tested": "2026-10-09",
+      "note": "Video poker. On first start it shows ACHTUNG FEHLER IM BLOCK, its memory warning: press Z (Hold 1) to set it up."
+    }
+  ],
+  "controls": "5 inserts a coin, 1 starts a one-player game, arrow keys move, Ctrl and Alt are the buttons. Tab opens the machine menu.",
+  "downloads": [
+    {
+      "title": "Nippon Safes, Inc.",
+      "year": 1992,
+      "maker": "Dynabyte",
+      "what": "Three crooks, one heist, a comedy point-and-click.",
+      "files": [
+        [
+          "Game",
+          "https://downloads.scummvm.org/frs/extras/Nippon%20Safes/nippon-1.0.zip",
+          1977894
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Lure of the Temptress",
+      "year": 1992,
+      "maker": "Revolution Software",
+      "what": "Revolution’s first adventure: escape the dungeon, free the town from Selena.",
+      "files": [
+        [
+          "Game",
+          "https://downloads.scummvm.org/frs/extras/Lure%20of%20the%20Temptress/lure-1.1.zip",
+          5678861
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Beneath a Steel Sky",
+      "year": 1994,
+      "maker": "Revolution Software",
+      "what": "Cyberpunk adventure, art by Dave Gibbons of Watchmen.",
+      "files": [
+        [
+          "CD, with voices",
+          "https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/bass-cd-1.2.zip",
+          69377781
+        ],
+        [
+          "Floppy",
+          "https://downloads.scummvm.org/frs/extras/Beneath%20a%20Steel%20Sky/BASS-Floppy-1.3.zip",
+          7675813
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Dreamweb",
+      "year": 1994,
+      "maker": "Creative Reality",
+      "what": "Dark top-down cyberpunk adventure. Adults only.",
+      "files": [
+        [
+          "Floppy (UK)",
+          "https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-uk-1.1.zip",
+          10198532
+        ],
+        [
+          "CD, with voices (US)",
+          "https://downloads.scummvm.org/frs/extras/Dreamweb/dreamweb-cd-us-1.1.zip",
+          226360597
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Sfinx",
+      "year": 1994,
+      "maker": "LK Avalon",
+      "what": "Polish fairy-tale adventure, in English.",
+      "files": [
+        [
+          "Game",
+          "https://downloads.scummvm.org/frs/extras/Sfinx/sfinx-en-v1.1.zip",
+          16549117
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Flight of the Amazon Queen",
+      "year": 1995,
+      "maker": "John Passfield & Steve Stamatiadis",
+      "what": "1940s pulp adventure: a pilot crash-lands in the Amazon.",
+      "files": [
+        [
+          "CD, with voices",
+          "https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Talkie-1.1.zip",
+          33744817
+        ],
+        [
+          "Floppy",
+          "https://downloads.scummvm.org/frs/extras/Flight%20of%20the%20Amazon%20Queen/FOTAQ_Floppy.zip",
+          7109570
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Soltys",
+      "year": 1995,
+      "maker": "LK Avalon",
+      "what": "Comic adventure, in English.",
+      "files": [
+        [
+          "Game",
+          "https://downloads.scummvm.org/frs/extras/Soltys/soltys-en-v1.0.zip",
+          3484518
+        ]
+      ],
+      "licence": "\"You may distribute this game for free on any medium, provided this readme and all associated copyright notices and disclaimers are left intact.\" (the licence in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    },
+    {
+      "title": "Drascula: The Vampire Strikes Back",
+      "year": 1996,
+      "maker": "Alcachofa Soft",
+      "what": "Spanish vampire comedy, in English.",
+      "files": [
+        [
+          "Game",
+          "https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
+          32842993
+        ],
+        [
+          "Music",
+          "https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-2.0.zip",
+          36531704
+        ]
+      ],
+      "licence": "\"You may distribute DRASCULA for free on any medium\" (the readme in the archive)",
+      "player": "https://www.scummvm.org/downloads/"
+    }
+  ]
+}

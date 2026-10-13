@@ -1,0 +1,26 @@
+/* games.html — the arcade wall. Tokens are style.css's. */
+.steps { list-style: none; margin: 0 auto 2rem; padding: 0; max-width: 60rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: .75rem; }
+.steps li { background: var(--timber); color: var(--on-dark); padding: .9rem 1rem; border-left: 5px solid var(--ember); }
+.steps b { font-family: var(--display); font-weight: 400; color: var(--ember-hi); font-size: 1.4rem; margin-right: .4rem; }
+.steps em { font-style: normal; color: var(--ember-hi); }
+
+.cabinet { max-width: 44rem; margin: 0 auto 2rem; padding: 1rem; background: var(--timber-lo); border: 3px solid var(--ember); scroll-margin-top: 5rem; }
+.cabinet canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; background: var(--timber-lo); }
+.cab-msg { color: var(--on-dark-muted); text-align: center; margin: .75rem 0 0; }
+
+.machines { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1rem; }
+.machine { display: flex; flex-direction: column; background: var(--timber); color: var(--on-dark); padding: 1rem 1.1rem 1.1rem; border-top: 4px solid var(--ember); }
+.machine .year { font-family: var(--display); color: var(--ember-hi); font-size: 1.8rem; line-height: 1; margin: 0 0 .35rem; }
+.machine h4 { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--on-dark); font-size: 1.2rem; margin: 0 0 .15rem; }
+.machine .maker { color: var(--on-dark-muted); margin: 0 0 .9rem; }
+.machine .acts { display: flex; gap: .5rem; margin: 0 0 .8rem; }
+.machine .acts .btn { cursor: pointer; flex: 1; text-align: center; }
+.machine .credit { color: var(--on-dark-muted); font-size: .8rem; line-height: 1.35; margin: auto 0 0; }
+.machine .credit + .credit { margin-top: .4rem; }
+.fine-print { font-size: .85rem; }
+.machine .what { color: var(--on-dark); font-size: .92rem; margin: -.5rem 0 .9rem; }
+.machine .acts.col { flex-direction: column; }
+.machine .credit a, .fine-print a { color: var(--ember-hi); }
+.jump { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; margin: 0 0 1.25rem; }
+#arcade, #downloads { scroll-margin-top: 5rem; }
+#downloads { margin-top: 3rem; }

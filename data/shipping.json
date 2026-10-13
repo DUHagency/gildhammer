@@ -1,0 +1,381 @@
+{
+ "generated": "2026-10-09",
+ "from": "Columbus, OH 43215 (stand-in; Evan's real ship-from ZIP was not given)",
+ "notes": [
+  "All USPS prices are from Notice 123, effective October 4, 2026, read 2026-10-09: USPS Ground Advantage Commercial-Parcels (what Pirate Ship, Click-N-Ship business accounts and other PC Postage sell) and, in retail_prices, USPS Ground Advantage-Retail (Post Office counter).",
+  "Zones are USPS zones from the ship-from ZIP. zone2 stands for a near parcel (most of Ohio from Columbus is Zone 1–4), zone5 a mid distance, zone8 the farthest contiguous US. Zone 1 and Zone 2 are priced separately in Notice 123. A given destination's zone was NOT CHECKED; look it up at https://postcalc.usps.com before quoting.",
+  "Each tier is priced at the TOP of its packed weight range, so a quote is never under the label cost.",
+  "Dimensional weight changed: from the DMM revision dated 7-12-26 USPS divides by 139, not 166, for parcels over 1,728 cu in (DMM 223.1.4.2 Priority Mail, 283.1.4.2 Ground Advantage). Each side is rounded UP to a whole inch first.",
+  "USPS Ground Advantage commercial cubic pricing now has ten tiers up to 1.00 cu ft (≤20 lb, longest side ≤22 in; sides rounded DOWN to 1/4 in). Priority Mail cubic still stops at 0.50 cu ft. For printed parts in a padded box weight pricing was cheaper in every tier here; Pirate Ship rate-shops cubic against weight automatically.",
+  "Box weights are estimates (single-wall 32 ECT corrugated at about 0.6 kg/m² over a regular slotted carton's blank), not read from a box maker. Weigh the real box once and replace them.",
+  "UPS Ground and FedEx Ground prices are NOT CHECKED: they are account-specific, ups.com returned Access Denied to every request, and no public FedEx Ground price list was read.",
+  "Build volumes: QIDI X-Max 3 325 × 325 × 315 mm read on us.qidi3d.com 2026-10-09; Bambu Lab P1S 256 × 256 × 256 mm from the brief and store.json, NOT re-read (bambulab.com answered 403, the Bambu wiki 402, and us.store.bambulab.com's robots.txt names ClaudeBot)."
+ ],
+ "tiers": [
+  {
+   "id": "xs",
+   "name": "Extra small",
+   "fits": "up to 10 × 10 × 10 cm",
+   "example": "minis, knobs, cable clips, keychains",
+   "printer": "either",
+   "grams": {
+    "pla": [
+     15,
+     125
+    ],
+    "petg": [
+     15,
+     130
+    ]
+   },
+   "box": {
+    "in": [
+     6,
+     6,
+     6
+    ],
+    "weight_oz": 4
+   },
+   "packed_oz": [
+    6,
+    10
+   ],
+   "billed_lb": "under 1 (≤15.999 oz)",
+   "service": "USPS Ground Advantage (commercial, weight-priced)",
+   "prices": {
+    "zone2": 7.34,
+    "zone5": 8.24,
+    "zone8": 8.95
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 8.55,
+    "zone5": 9.35,
+    "zone8": 10.2
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Every weight up to 15.999 oz costs the same commercially, so a padded mailer saves only the box weight. A 6-in box measures about 6.25 in outside, 0.14 cu ft, so cubic would be the 0.20 tier ($8.29 / $9.92 / $12.39), dearer than weight."
+  },
+  {
+   "id": "s",
+   "name": "Small",
+   "fits": "up to 15 × 15 × 15 cm",
+   "example": "desk organiser, small figure, planter, gear set",
+   "printer": "either",
+   "grams": {
+    "pla": [
+     45,
+     375
+    ],
+    "petg": [
+     50,
+     380
+    ]
+   },
+   "box": {
+    "in": [
+     8,
+     8,
+     8
+    ],
+    "weight_oz": 7
+   },
+   "packed_oz": [
+    10,
+    22
+   ],
+   "billed_lb": 2,
+   "service": "USPS Ground Advantage (commercial, weight-priced)",
+   "prices": {
+    "zone2": 8.48,
+    "zone5": 10.5,
+    "zone8": 13.42
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 12.0,
+    "zone5": 14.85,
+    "zone8": 19.8
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Priced at the top of the packed range (2 lb). Under 16 oz packed it drops to the XS price. Cubic (0.40 tier) is dearer."
+  },
+  {
+   "id": "m",
+   "name": "Medium",
+   "fits": "up to 20 × 20 × 20 cm",
+   "example": "helmet half, bust, drawer insert set, lamp shade",
+   "printer": "either",
+   "grams": {
+    "pla": [
+     100,
+     850
+    ],
+    "petg": [
+     105,
+     860
+    ]
+   },
+   "box": {
+    "in": [
+     10,
+     10,
+     10
+    ],
+    "weight_oz": 11
+   },
+   "packed_oz": [
+    17,
+    44
+   ],
+   "billed_lb": 3,
+   "service": "USPS Ground Advantage (commercial, weight-priced)",
+   "prices": {
+    "zone2": 9.06,
+    "zone5": 12.12,
+    "zone8": 16.3
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 12.5,
+    "zone5": 15.7,
+    "zone8": 23.15
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Outside about 10.4 in rounds up to 11 in: 1,331 cu in, under 1 cu ft, so no dimensional weight. Priority Mail Medium Flat Rate ($22.02 commercial) never beats this."
+  },
+  {
+   "id": "l",
+   "name": "Large",
+   "fits": "up to 25 × 25 × 25 cm (full P1S plate)",
+   "example": "cosplay helmet, full-plate tray, large vase, terrain tile set",
+   "printer": "either",
+   "grams": {
+    "pla": [
+     190,
+     1600
+    ],
+    "petg": [
+     195,
+     1650
+    ]
+   },
+   "box": {
+    "in": [
+     11,
+     11,
+     11
+    ],
+    "weight_oz": 14
+   },
+   "packed_oz": [
+    23,
+    75
+   ],
+   "billed_lb": 5,
+   "service": "USPS Ground Advantage (commercial, weight-priced)",
+   "prices": {
+    "zone2": 10.41,
+    "zone5": 14.53,
+    "zone8": 20.24
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 14.35,
+    "zone5": 18.85,
+    "zone8": 27.45
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Use an 11-inch box, not a 12: an 11-in box measures about 11.4 in outside, rounds up to 12 in = exactly 1,728 cu in, which is not OVER 1 cu ft, so actual weight applies. A 12-in box rounds up to 13 in = 2,197 cu in → 16 lb dimensional weight ($16.96 / $23.64 / $36.04). Only 0.6 in of padding per side for a full 25 cm cube."
+  },
+  {
+   "id": "xl",
+   "name": "Extra large",
+   "fits": "up to 32 × 32 × 31.5 cm (full X-Max 3 plate)",
+   "example": "full-size helmet, prop sword section, large bust, big storage bin",
+   "printer": "qidi-x-max-3",
+   "grams": {
+    "pla": [
+     375,
+     3200
+    ],
+    "petg": [
+     385,
+     3300
+    ]
+   },
+   "box": {
+    "in": [
+     14,
+     14,
+     14
+    ],
+    "weight_oz": 22
+   },
+   "packed_oz": [
+    40,
+    142
+   ],
+   "billed_lb": 25,
+   "service": "USPS Ground Advantage (commercial, dimensional weight)",
+   "prices": {
+    "zone2": 28.59,
+    "zone5": 48.69,
+    "zone8": 79.94
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 36.2,
+    "zone5": 60.65,
+    "zone8": 99.1
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Billed on dimensional weight: outside about 14.4 in rounds up to 15 in = 3,375 cu in ÷ 139 = 24.3 → 25 lb, whatever it really weighs. Just under the 2 cu ft (3,456 cu in) $21 surcharge. A print that is flat, not a cube, should go in a flatter box and be re-measured."
+  },
+  {
+   "id": "oversize",
+   "name": "Oversize / multi-part",
+   "fits": "bigger than one plate: printed in parts",
+   "example": "full-scale prop rifle body, wearable armour, large sculpture",
+   "printer": "either",
+   "grams": {
+    "pla": [
+     500,
+     5000
+    ],
+    "petg": [
+     510,
+     5100
+    ]
+   },
+   "box": {
+    "in": [
+     11,
+     11,
+     11
+    ],
+    "weight_oz": 14
+   },
+   "packed_oz": [
+    60,
+    180
+   ],
+   "billed_lb": 10,
+   "service": "USPS Ground Advantage, split into two 11-inch boxes (each priced at 5 lb)",
+   "prices": {
+    "zone2": 20.82,
+    "zone5": 29.06,
+    "zone8": 40.48
+   },
+   "price_basis": "commercial",
+   "retail_prices": {
+    "zone2": 28.7,
+    "zone5": 37.7,
+    "zone8": 54.9
+   },
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09",
+   "note": "Prices are two L boxes at 5 lb each. One 16 × 16 × 16 box instead rounds up to 17 in = 4,913 cu in → 36 lb billed ($40.36 / $76.96 / $121.64) plus $21 for exceeding 2 cu ft = $61.36 / $97.96 / $142.64. Splitting is always cheaper; parts must be designed to join."
+  }
+ ],
+ "carriers": [
+  {
+   "name": "USPS Ground Advantage",
+   "rule": "Up to 70 lb; length + girth up to 130 in (over 108 in pays the Oversized price). Over 1,728 cu in: billed on the greater of actual or dimensional weight, L×W×H (each rounded up to a whole inch) ÷ 139. Surcharges: longer than 22 in +$4.50, longer than 30 in +$10.00, over 2 cu ft (3,456 cu in) +$21.00, tubes/rolls or parcels that may roll +$4.50. Tracking and $100 insurance included.",
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "USPS Ground Advantage cubic (commercial only)",
+   "rule": "Ten tiers, 0.10 to 1.00 cu ft; each piece ≤1 cu ft, ≤20 lb, longest side ≤22 in, not a roll or tube; sides rounded DOWN to the nearest 1/4 in. 0.10 cu ft: $7.91 zone 2, $9.04 zone 5, $10.68 zone 8; 1.00 cu ft: $13.39 / $18.68 / $27.35.",
+   "source_url": "https://pe.usps.com/text/dmm300/283.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "USPS Priority Mail",
+   "rule": "Commercial weight prices from $9.72 (zone 2) / $13.82 (zone 5) / $16.07 (zone 8) at 1 lb; same 139 dimensional-weight rule over 1 cu ft. Commercial Flat Rate: Small box (8-5/8 × 5-3/8 × 1-5/8 in) $12.95, Medium (11 × 8-1/2 × 5-1/2 or 13-5/8 × 11-7/8 × 3-3/8 in) $22.02, Large (12 × 11-3/4 × 5-1/2 in) $32.75; retail $14.65 / $25.80 / $36.10. Cubic five tiers to 0.50 cu ft. For prints Ground Advantage was cheaper in every tier.",
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "USPS dimensional weight",
+   "rule": "Applies to Ground Advantage and Priority Mail parcels to zones 1–9 that exceed 1 cubic foot (1,728 cu in): measure, round each side UP to a whole inch, multiply, divide by 139, round up; over 70 lb dimensional pays the 70 lb price. Revised 7-12-26 (was 166).",
+   "source_url": "https://pe.usps.com/text/dmm300/223.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "FedEx (Ground and Express)",
+   "rule": "Dimensional weight = L × W × H in inches ÷ 139 for US shipments, each side rounded to the nearest whole inch; billed on the greater of actual or dimensional weight. Whether it applies at every size was not stated on the page read.",
+   "source_url": "https://www.fedex.com/en-us/shipping/packaging/what-is-dimensional-weight.html",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "UPS Ground",
+   "rule": "NOT CHECKED: ups.com answered Access Denied to the dimensions-and-weight page on 2026-10-09. Do not assume its divisor or threshold.",
+   "source_url": "https://www.ups.com/us/en/support/shipping-support/shipping-dimensions-weight.page",
+   "verified": null
+  },
+  {
+   "name": "Pirate Ship",
+   "rule": "Sells USPS Ground Advantage at or below Commercial Pricing (USPS Connect eCommerce), automatically rate-shops cubic against weight-based, no markup or monthly fee; $100 USPS insurance included on Ground Advantage.",
+   "source_url": "https://www.pirateship.com/usps/ground-advantage",
+   "verified": "2026-10-09"
+  },
+  {
+   "name": "USPS insurance (extra)",
+   "rule": "Ground Advantage and Priority Mail include $100. Extra merchandise insurance: $0.01–50 $2.80; 50.01–100 $3.50; 100.01–200 $4.50; 200.01–300 $4.55; 300.01–400 $6.05; 400.01–500 $7.55; 500.01–600 $9.05; over $600 $9.05 + $1.50 per $100, to $5,000. Signature Confirmation $4.15 electronic.",
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09"
+  }
+ ],
+ "cannot_ship": [
+  {
+   "what": "A real firearm, or any printed frame or receiver",
+   "why": "A firearm under Pub 52 431.1 includes anything that 'may readily be converted' to fire and 'the frame or receiver of any such weapon'. Handguns are nonmailable except between licensed parties (432.2). Never print or ship one.",
+   "source_url": "https://pe.usps.com/text/pub52/pub52c4_009.htm"
+  },
+  {
+   "what": "Replica grenades, bombs or other replica explosive devices",
+   "why": "Domestic: mailable only at a retail counter, by Registered Mail, labelled REPLICA EXPLOSIVE in letters at least 1/4 in high (Pub 52 434). International: prohibited (Pub 52 632).",
+   "source_url": "https://pe.usps.com/text/pub52/pub52c4_012.htm"
+  },
+  {
+   "what": "Prop / replica firearms by FedEx",
+   "why": "FedEx accepts firearm shipments only from Federal Firearms Licence holders under a compliance agreement; 'Shippers that do not hold an FFL ... are prohibited from shipping firearms with FedEx.' The page read says nothing on non-firing props, so their treatment by FedEx is NOT CHECKED. USPS Pub 52 has no rule for non-firing replica guns; UPS NOT CHECKED (Access Denied).",
+   "source_url": "https://www.fedex.com/en-us/shipping/how-to-ship-firearms.html"
+  },
+  {
+   "what": "Loose lithium batteries (RC kits, light-up props)",
+   "why": "Domestic: lithium cells installed in or packed with the equipment they run are mailable by air or surface under Packaging Instruction 9D; batteries without equipment go by surface only; used, damaged or defective devices have further limits. Ship RC and electronics kits with the battery installed, or leave it out.",
+   "source_url": "https://pe.usps.com/text/pub52/pub52apxc_032.htm"
+  }
+ ],
+ "international": [
+  {
+   "rule": "First-Class Package International Service: maximum 4 lb (64 oz); merchandise allowed up to $400 declared value; over $400 must go Priority Mail International or Priority Mail Express International.",
+   "source_url": "https://pe.usps.com/text/imm/immc1_009.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "rule": "Customs form: First-Class Package International takes PS Form 2976 (CN22) or 2976-A (CN23); Priority Mail International always 2976-A; Priority Mail Express International 2976-B. Anything needing an export licence always takes 2976-A or 2976-B (IMM Exhibit 123.61).",
+   "source_url": "https://pe.usps.com/text/imm/immc1_009.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "rule": "First-Class Package International commercial base, price group 1: $18.48 up to 8 oz, $24.69 to 16 oz, $27.65 to 32 oz, $36.57 to 48 oz, $39.59 to 64 oz; other groups run to $77.00 at 64 oz. Which country is in which group was NOT CHECKED.",
+   "source_url": "https://pe.usps.com/text/dmm300/Notice123.htm",
+   "verified": "2026-10-09"
+  },
+  {
+   "rule": "Replica or inert military ordnance, grenades and similar devices are prohibited in international mail (Pub 52 632).",
+   "source_url": "https://pe.usps.com/text/pub52/pub52c6_009.htm",
+   "verified": "2026-10-09"
+  }
+ ],
+ "method": "Grams: a print is modelled as a cube holding 5–35 % of its tier's bounding cube (most objects fill little of their box). Mass = density × (shell + infill), with shell = surface × 0.8–1.2 mm (2–3 walls of a 0.4 mm nozzle) and infill 15–20 % of the inside volume; PLA 1.24 g/cm³, PETG 1.27 g/cm³; results rounded to 5 g. Packed weight = print + estimated box weight + 1–5 oz of paper void fill, tape and label, rounded to whole ounces. Box: the smallest stock cube leaving about 1 in of padding per side (0.6 in for L). Billed weight: the greater of packed weight (rounded up to the next pound above 15.999 oz) and dimensional weight where the box's outside, rounded up to whole inches, exceeds 1,728 cu in (÷139). Price: that billed weight read from Notice 123 at zones 2, 5 and 8."
+}

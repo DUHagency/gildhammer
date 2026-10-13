@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100"><!-- Software: the warp-weighted loom, the Norse machine that ran on a pattern. Drawn here, 2026-10-09. -->
+<g stroke="#2e2419" stroke-width="5" stroke-linecap="round"><path d="M40 96 L52 6"/><path d="M120 96 L108 6"/><path d="M44 10 H116"/></g>
+<g stroke="#e8e0cc" stroke-width="1.6"><path d="M58 12V74M64 12V78M70 12V74M76 12V78M82 12V74M88 12V78M94 12V74M100 12V78"/></g>
+<rect x="56" y="12" width="46" height="34" fill="#a33a28"/>
+<g fill="none" stroke="#e8c84a" stroke-width="2"><path d="M56 20 L62 16 L68 20 L74 16 L80 20 L86 16 L92 20 L98 16 L102 18"/><path d="M56 30 L62 26 L68 30 L74 26 L80 30 L86 26 L92 30 L98 26 L102 28"/><path d="M56 40 L62 36 L68 40 L74 36 L80 40 L86 36 L92 40 L98 36 L102 38"/></g>
+<path d="M50 52 H110" stroke="#2e2419" stroke-width="3"/>
+<g fill="#9c968a" stroke="#2e2419" stroke-width="1"><ellipse cx="58" cy="80" rx="4" ry="5"/><ellipse cx="70" cy="80" rx="4" ry="5"/><ellipse cx="82" cy="80" rx="4" ry="5"/><ellipse cx="94" cy="80" rx="4" ry="5"/><ellipse cx="64" cy="85" rx="4" ry="5"/><ellipse cx="76" cy="85" rx="4" ry="5"/><ellipse cx="88" cy="85" rx="4" ry="5"/><ellipse cx="100" cy="85" rx="4" ry="5"/></g>
+</svg>

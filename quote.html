@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get a quote — Gildhammer</title>
+<meta name="description" content="Ask Gildhammer for a quote on a 3-D printed part: send a photo, the measurements and what it is for.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="js/app.js" defer></script>
+<script src="js/quote.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html">Software</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="games.html">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html">Shipping</a></li>
+    <li><a href="quote.html" aria-current="page">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/quote.svg" alt="">
+    <h1>Get a quote</h1>
+    <p class="lede">Show us the broken part or the thing it has to fit. We measure, model it, and tell you the material, the price and the wait before anything is printed.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <form class="quote tile" id="quote" novalidate>
+    <div class="field"><label for="q-name">Your name</label><input id="q-name" name="name" autocomplete="name" required maxlength="80"></div>
+    <div class="field"><label for="q-contact">Phone or email</label><input id="q-contact" name="contact" autocomplete="email" required maxlength="120"><small>So we can send you the quote. Nothing else.</small></div>
+    <div class="field"><label for="q-lane">What kind of part</label>
+      <select id="q-lane" name="lane">
+        <option value="repair">Household repair</option><option value="film">Film and camera gear</option><option value="rc">RC and drone</option>
+        <option value="games">Game pieces and sets</option><option value="nordic">Nordic goods</option><option value="car">Car part (never safety parts)</option><option value="kitchen">Kitchen and food-grade (water bottle tops)</option><option value="vanity">Vanity and makeup</option><option value="halloween">Halloween mask</option><option value="organize">Organizing</option><option value="props">Movie prop</option><option value="replicas">Prop firearm (non-firing)</option><option value="other">Something else</option>
+      </select></div>
+    <div class="field"><label for="q-what">What is it, and what is it for?</label><textarea id="q-what" name="what" rows="4" required maxlength="2000" placeholder="The knob on our 2009 dryer snapped off at the shaft…"></textarea></div>
+    <div class="field"><label for="q-meas">Measurements, if you have them</label><textarea id="q-meas" name="measurements" rows="2" maxlength="1000" placeholder="Shaft 6 mm with a flat side; knob about 40 mm across"></textarea></div>
+    <div class="field small"><label for="q-qty">How many</label><input id="q-qty" name="quantity" type="number" min="1" max="500" value="1"></div>
+    <div class="field"><label for="q-photo">A photo, with a ruler in the shot</label><input id="q-photo" name="photo" type="file" accept="image/*"><img id="q-preview" alt="" hidden></div>
+    <div class="trap" aria-hidden="true"><label for="q-web">Leave this empty</label><input id="q-web" name="website" tabindex="-1" autocomplete="off"></div>
+    <button class="btn primary" type="submit" id="q-send">Send the request</button>
+    <p class="formmsg" id="q-msg" role="status" aria-live="polite"></p>
+  </form>
+  <p class="intro">We never print anything that keeps someone safe, anything that touches food, or somebody else's design without leave. A quote is free and you owe nothing until you say yes.</p>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+{
+  "_comment": "Gildhammer news. Empty on purpose (user, 2026-10-09): the page is written to Evan's liking later. A post is {\"date\":\"YYYY-MM-DD\",\"title\":\"…\",\"body\":\"…\",\"tags\":[\"…\"],\"link\":\"optional URL\"}; newest is shown first.",
+  "posts": []
+}

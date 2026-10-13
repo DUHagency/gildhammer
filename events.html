@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events — Gildhammer</title>
+<meta name="description" content="A calendar of comic cons, anime cons, Warhammer 40,000 tournaments, D&amp;D and board-game conventions, and the weekly game nights in Ohio stores, with finders for everywhere else.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="js/app.js" defer></script>
+<script src="js/events.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html" aria-current="page">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html">Software</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="games.html">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html">Shipping</a></li>
+    <li><a href="quote.html">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/events.svg" alt="">
+    <h1>Around the table</h1>
+    <p class="lede">Comic cons, anime cons, Warhammer and wargame weekends, D&amp;D and board-game conventions, and the game nights at Ohio stores. Every date was read on the organiser&#39;s own page; check it again before you travel.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <div class="filters" id="regions" role="group" aria-label="Where"></div>
+  <div class="filters" id="kinds" role="group" aria-label="Kind of event"></div>
+  <div class="cal-head">
+    <button class="btn" type="button" data-step="-1" aria-label="Previous month">‹ Back</button>
+    <h3 id="month" aria-live="polite"></h3>
+    <button class="btn" type="button" data-step="1" aria-label="Next month">Next ›</button>
+  </div>
+  <p class="count" id="count" aria-live="polite">Loading the calendar…</p>
+  <div class="cal" id="cal"></div>
+  <p class="intro" style="margin-top:.75rem"><button class="btn" type="button" data-today>This month</button></p>
+  <ul class="agenda" id="agenda"></ul>
+  <section class="group" aria-labelledby="nights-h">
+    <h3 id="nights-h">Game nights in Ohio stores</h3>
+    <p class="intro">Warhammer, D&amp;D, Magic and board-game nights that come round every week or month, as each store writes them. Stores change nights; the link goes to theirs.</p>
+    <div class="nights" id="nights"></div>
+  </section>
+  <section class="group" aria-labelledby="find-h">
+    <h3 id="find-h">Anywhere else</h3>
+    <p class="intro">Not in Ohio? These finders cover game nights, leagues and tournaments everywhere.</p>
+    <ul class="rows" id="finders"></ul>
+  </section>
+  <p class="intro">Calendar last gathered <span id="generated"></span>.</p>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

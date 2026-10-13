@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open-source software — Gildhammer</title>
+<meta name="description" content="The open-source programs 3-D printing runs on: slicers, CAD, mesh tools, printer firmware, print-farm hosts, scanning and laser.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="js/app.js" defer></script>
+<script src="js/software.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html" aria-current="page">Software</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="games.html">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html">Shipping</a></li>
+    <li><a href="quote.html">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/software.svg" alt="">
+    <h1>Open-source software</h1>
+    <p class="lede">Every program here is open source: free to use, free to read, free to change. The licence is listed for each, read from its own repository.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <div class="filters" id="groups" role="group" aria-label="Kind of software"></div>
+  <input class="find" id="find" type="search" placeholder="Find a program…" aria-label="Find a program">
+  <div id="list"><p class="intro">Loading…</p></div>
+  <section class="group" id="closed" hidden>
+    <h3>Free, but not open source</h3>
+    <p class="intro">Worth knowing and free to use, but their source is closed.</p>
+    <ul class="rows" id="closed-list"></ul>
+  </section>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

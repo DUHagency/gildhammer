@@ -1,0 +1,1346 @@
+{
+ "generated": "2026-10-09",
+ "note": "Every date was read on the organiser's own page on the verified date (source_url). Events that had ended by the generated date, and editions not yet announced, are left out.",
+ "events": [
+  {
+   "id": "con-on-the-cob-2026",
+   "name": "Con on the Cob 2026",
+   "kind": "rpg",
+   "start": "2026-10-07",
+   "end": "2026-10-11",
+   "city": "Richfield",
+   "state": "OH",
+   "venue": "Quality Inn & Suites Richfield",
+   "url": "https://www.cononthecob.com",
+   "source_url": "https://tabletop.events/conventions/con-on-the-cob-2026",
+   "verified": "2026-10-09",
+   "note": "Under way on the day this was checked. Tabletop RPGs, board games and art; dates read from the organiser's own Tabletop.Events listing (its data feed, since the page draws them by script)."
+  },
+  {
+   "id": "nycc-2026",
+   "name": "New York Comic Con 2026",
+   "kind": "comic",
+   "start": "2026-10-08",
+   "end": "2026-10-11",
+   "city": "New York",
+   "state": "NY",
+   "venue": "Javits Center",
+   "url": "https://www.newyorkcomiccon.com",
+   "source_url": "https://www.newyorkcomiccon.com",
+   "verified": "2026-10-09",
+   "note": "Under way on the day this was checked."
+  },
+  {
+   "id": "tsubasacon-2026",
+   "name": "Tsubasacon 2026",
+   "kind": "anime",
+   "start": "2026-10-09",
+   "end": "2026-10-11",
+   "city": "Charleston",
+   "state": "WV",
+   "venue": "Charleston Coliseum & Convention Center",
+   "url": "https://www.tsubasacon.org/",
+   "source_url": "https://www.tsubasacon.org/",
+   "verified": "2026-10-09",
+   "note": "Under way on the day this was checked."
+  },
+  {
+   "id": "sekaicon-2026",
+   "name": "Sekaicon 2026",
+   "kind": "anime",
+   "start": "2026-10-09",
+   "end": "2026-10-11",
+   "city": "Newark",
+   "state": "OH",
+   "venue": "Cherry Valley Hotel",
+   "url": "https://sekaiconnection.com/",
+   "source_url": "https://sekaiconnection.com/",
+   "verified": "2026-10-09",
+   "note": "Under way on the day this was checked."
+  },
+  {
+   "id": "gamehole-con-2026",
+   "name": "Gamehole Con",
+   "kind": "boardgame",
+   "start": "2026-10-15",
+   "end": "2026-10-18",
+   "city": "Madison",
+   "state": "WI",
+   "venue": "Alliant Energy Center, Exhibition Hall",
+   "url": "https://www.gameholecon.com/",
+   "source_url": "https://www.gameholecon.com/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "akron-comicon-2026",
+   "name": "Akron Comicon",
+   "kind": "comic",
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "city": "Cuyahoga Falls",
+   "state": "OH",
+   "venue": "Emidio's Expo Center",
+   "url": "https://www.akroncomicon.com",
+   "source_url": "https://www.akroncomicon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "acadecon-2026",
+   "name": "AcadeCon",
+   "kind": "rpg",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "city": "Dayton",
+   "state": "OH",
+   "venue": "Dayton Convention Center",
+   "url": "https://tabletop.events/conventions/acadecon-2026",
+   "source_url": "https://tabletop.events/conventions/acadecon-2026",
+   "verified": "2026-10-09",
+   "note": "Role-playing, board and card games in Dayton, Ohio."
+  },
+  {
+   "id": "motor-city-comic-con-2026",
+   "name": "Motor City Comic Con",
+   "kind": "comic",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "city": "Novi",
+   "state": "MI",
+   "venue": "Vibe Credit Union Showplace",
+   "url": "https://www.motorcitycomiccon.com",
+   "source_url": "https://www.motorcitycomiccon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "bgg-con-2026",
+   "name": "BGG.CON",
+   "kind": "boardgame",
+   "start": "2026-11-18",
+   "end": "2026-11-22",
+   "city": "Dallas",
+   "state": "TX",
+   "venue": "Hyatt Regency Dallas",
+   "url": "https://tabletop.events/conventions/bgg.con-2026",
+   "source_url": "https://tabletop.events/conventions/bgg.con-2026",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "awa-2026",
+   "name": "Anime Weekend Atlanta",
+   "kind": "anime",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "city": "Atlanta",
+   "state": "GA",
+   "venue": "Georgia World Congress Center, Building C",
+   "url": "https://www.awa-con.com",
+   "source_url": "https://www.awa-con.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "warhammer-open-atlanta-2026",
+   "name": "Warhammer Open Atlanta",
+   "kind": "wargame",
+   "start": "2026-11-20",
+   "end": "2026-11-23",
+   "city": "Atlanta",
+   "state": "GA",
+   "venue": "Hyatt Regency Atlanta",
+   "url": "https://www.warhammer-community.com/en-gb/articles/9bi6zsmk/warhammer-opens-in-krakow-atlanta-and-palm-springs-announced/",
+   "source_url": "https://www.warhammer-community.com/en-gb/articles/9bi6zsmk/warhammer-opens-in-krakow-atlanta-and-palm-springs-announced/",
+   "verified": "2026-10-09",
+   "note": "Official Games Workshop event with Warhammer 40,000, Age of Sigmar and Kill Team."
+  },
+  {
+   "id": "galaxycon-columbus-2026",
+   "name": "GalaxyCon Columbus",
+   "kind": "comic",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "city": "Columbus",
+   "state": "OH",
+   "venue": "Greater Columbus Convention Center",
+   "url": "https://galaxycon.com/columbus",
+   "source_url": "https://galaxycon.com/columbus",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "pax-unplugged-philadelphia-2026",
+   "name": "PAX Unplugged (Philadelphia)",
+   "kind": "boardgame",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "city": "Philadelphia",
+   "state": "PA",
+   "venue": "",
+   "url": "https://unplugged.paxsite.com/",
+   "source_url": "https://unplugged.paxsite.com/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "steel-city-con-2026",
+   "name": "Steel City Con",
+   "kind": "comic",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "city": "Monroeville",
+   "state": "PA",
+   "venue": "Monroeville Convention Center",
+   "url": "https://www.steelcitycon.com",
+   "source_url": "https://www.steelcitycon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "mahoning-valley-comicon-2026",
+   "name": "Mahoning Valley Comicon",
+   "kind": "comic",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "city": "Girard",
+   "state": "OH",
+   "venue": "Metroplex Expo Center",
+   "url": "http://www.mahoningvalleycomicon.com/",
+   "source_url": "http://www.mahoningvalleycomicon.com/",
+   "verified": "2026-10-09",
+   "note": "The organiser's page still headlines the 2025 show; the 2026 date (Dec 12, 2026, 11:00 AM) is read from its vendor-table listing on the same page."
+  },
+  {
+   "id": "fan-expo-new-orleans-2027",
+   "name": "FAN EXPO New Orleans",
+   "kind": "comic",
+   "start": "2027-01-08",
+   "end": "2027-01-10",
+   "city": "New Orleans",
+   "state": "LA",
+   "venue": "Ernest N. Morial Convention Center",
+   "url": "https://fanexpohq.com/fanexponeworleans",
+   "source_url": "https://fanexpohq.com/fanexponeworleans",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "warhammer-open-palm-springs-2027",
+   "name": "Warhammer Open Palm Springs",
+   "kind": "wargame",
+   "start": "2027-01-15",
+   "end": "2027-01-17",
+   "city": "Palm Springs",
+   "state": "CA",
+   "venue": "",
+   "url": "https://www.warhammer-community.com/en-gb/articles/9bi6zsmk/warhammer-opens-in-krakow-atlanta-and-palm-springs-announced/",
+   "source_url": "https://www.warhammer-community.com/en-gb/articles/9bi6zsmk/warhammer-opens-in-krakow-atlanta-and-palm-springs-announced/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "geekway-mini-2027",
+   "name": "Geekway Mini",
+   "kind": "boardgame",
+   "start": "2027-01-22",
+   "end": "2027-01-24",
+   "city": "St. Louis",
+   "state": "MO",
+   "venue": "",
+   "url": "https://geekway.com/",
+   "source_url": "https://geekway.com/",
+   "verified": "2026-10-09",
+   "note": "Registration was listed as opening October 3, 2026."
+  },
+  {
+   "id": "fan-expo-portland-2027",
+   "name": "FAN EXPO Portland",
+   "kind": "comic",
+   "start": "2027-01-29",
+   "end": "2027-01-31",
+   "city": "Portland",
+   "state": "OR",
+   "venue": "Oregon Convention Center",
+   "url": "https://fanexpohq.com/fanexpoportland",
+   "source_url": "https://fanexpohq.com/fanexpoportland",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "ohayocon-2027",
+   "name": "Ohayocon 2027",
+   "kind": "anime",
+   "start": "2027-01-29",
+   "end": "2027-01-31",
+   "city": "Columbus",
+   "state": "OH",
+   "venue": "The Plaza at the Capitol",
+   "url": "https://ohayocon.online/",
+   "source_url": "https://ohayocon.online/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "katsucon-2027",
+   "name": "Katsucon 2027",
+   "kind": "anime",
+   "start": "2027-02-12",
+   "end": "2027-02-14",
+   "city": "National Harbor",
+   "state": "MD",
+   "venue": "Gaylord National Resort & Convention Center",
+   "url": "https://www.katsucon.org",
+   "source_url": "https://www.katsucon.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "emerald-city-comic-con-2027",
+   "name": "Emerald City Comic Con 2027",
+   "kind": "comic",
+   "start": "2027-03-04",
+   "end": "2027-03-07",
+   "city": "Seattle",
+   "state": "WA",
+   "venue": "Seattle Convention Center",
+   "url": "https://www.emeraldcitycomiccon.com",
+   "source_url": "https://www.emeraldcitycomiccon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "fan-expo-cleveland-2027",
+   "name": "FAN EXPO Cleveland",
+   "kind": "comic",
+   "start": "2027-03-12",
+   "end": "2027-03-14",
+   "city": "Cleveland",
+   "state": "OH",
+   "venue": "Huntington Convention Center of Cleveland",
+   "url": "https://fanexpohq.com/fanexpocleveland",
+   "source_url": "https://fanexpohq.com/fanexpocleveland",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "galaxycon-richmond-2027",
+   "name": "GalaxyCon Richmond",
+   "kind": "comic",
+   "start": "2027-03-18",
+   "end": "2027-03-21",
+   "city": "Richmond",
+   "state": "VA",
+   "venue": "Greater Richmond Convention Center",
+   "url": "https://galaxycon.com/richmond",
+   "source_url": "https://galaxycon.com/richmond",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "gary-con-2027",
+   "name": "Gary Con XIX",
+   "kind": "rpg",
+   "start": "2027-03-18",
+   "end": "2027-03-21",
+   "city": "Lake Geneva",
+   "state": "WI",
+   "venue": "Grand Geneva Resort & Spa",
+   "url": "https://www.garycon.com",
+   "source_url": "https://www.garycon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "zenkaikon-2027",
+   "name": "Zenkaikon 2027",
+   "kind": "anime",
+   "start": "2027-03-18",
+   "end": "2027-03-21",
+   "city": "Lancaster",
+   "state": "PA",
+   "venue": "Lancaster County Convention Center",
+   "url": "https://www.zenkaikon.com",
+   "source_url": "https://www.zenkaikon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "lexington-comic-toy-con-2027",
+   "name": "Lexington Comic & Toy Convention",
+   "kind": "comic",
+   "start": "2027-03-25",
+   "end": "2027-03-28",
+   "city": "Lexington",
+   "state": "KY",
+   "venue": "Central Bank Center",
+   "url": "https://www.lexingtoncomiccon.com",
+   "source_url": "https://www.lexingtoncomiccon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "buckeye-game-fest-2027",
+   "name": "Buckeye Game Fest 2027",
+   "kind": "boardgame",
+   "start": "2027-03-25",
+   "end": "2027-03-28",
+   "city": "Lewis Center",
+   "state": "OH",
+   "venue": "The Ohioan Hotel & Event Center",
+   "url": "https://www.buckeyegamefest.com/",
+   "source_url": "https://www.buckeyegamefest.com/registration/",
+   "verified": "2026-10-09",
+   "note": "Board games, RPGs and the War Room (wargames, Mar 22-27). The organiser names the venue but not its town; Lewis Center is from the venue owner's page."
+  },
+  {
+   "id": "popcon-indy-2027",
+   "name": "PopCon Indy",
+   "kind": "comic",
+   "start": "2027-03-26",
+   "end": "2027-03-28",
+   "city": "Indianapolis",
+   "state": "IN",
+   "venue": "Indiana Convention Center",
+   "url": "https://popcon.us/popcon-indy/",
+   "source_url": "https://popcon.us/popcon-indy/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "sakura-con-2027",
+   "name": "Sakura-Con 2027",
+   "kind": "anime",
+   "start": "2027-03-26",
+   "end": "2027-03-28",
+   "city": "Seattle",
+   "state": "WA",
+   "venue": "",
+   "url": "https://www.sakuracon.org",
+   "source_url": "https://www.sakuracon.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "wondercon-2027",
+   "name": "WonderCon 2027",
+   "kind": "comic",
+   "start": "2027-03-26",
+   "end": "2027-03-28",
+   "city": "Anaheim",
+   "state": "CA",
+   "venue": "Anaheim Convention Center",
+   "url": "https://www.comic-con.org/wca/",
+   "source_url": "https://www.comic-con.org/wca/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "planet-comicon-2027",
+   "name": "Planet Comicon Kansas City",
+   "kind": "comic",
+   "start": "2027-04-02",
+   "end": "2027-04-04",
+   "city": "Kansas City",
+   "state": "MO",
+   "venue": "Kansas City Convention Center (Bartle Hall)",
+   "url": "https://www.planetcomicon.com",
+   "source_url": "https://www.planetcomicon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "adepticon-2027",
+   "name": "AdeptiCon",
+   "kind": "wargame",
+   "start": "2027-04-07",
+   "end": "2027-04-11",
+   "city": "Milwaukee",
+   "state": "WI",
+   "venue": "Baird Center",
+   "url": "https://www.adepticon.org",
+   "source_url": "https://www.adepticon.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "penguicon-2027",
+   "name": "Penguicon 2027",
+   "kind": "scifi",
+   "start": "2027-04-08",
+   "end": "2027-04-11",
+   "city": "Southfield",
+   "state": "MI",
+   "venue": "The Westin Southfield Detroit",
+   "url": "https://www.penguicon.org",
+   "source_url": "https://2027.penguicon.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "c2e2-2027",
+   "name": "C2E2 2027",
+   "kind": "comic",
+   "start": "2027-04-30",
+   "end": "2027-05-02",
+   "city": "Chicago",
+   "state": "IL",
+   "venue": "McCormick Place",
+   "url": "https://www.c2e2.com",
+   "source_url": "https://www.c2e2.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "anime-central-2027",
+   "name": "Anime Central 2027",
+   "kind": "anime",
+   "start": "2027-05-14",
+   "end": "2027-05-16",
+   "city": "Rosemont",
+   "state": "IL",
+   "venue": "Donald E. Stephens Convention Center & Hyatt Regency O'Hare",
+   "url": "https://www.acen.org",
+   "source_url": "https://www.acen.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "megacon-orlando-2027",
+   "name": "MEGACON Orlando",
+   "kind": "comic",
+   "start": "2027-05-20",
+   "end": "2027-05-23",
+   "city": "Orlando",
+   "state": "FL",
+   "venue": "Orange County Convention Center",
+   "url": "https://fanexpohq.com/megaconorlando",
+   "source_url": "https://fanexpohq.com/megaconorlando",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "fan-expo-philadelphia-2027",
+   "name": "FAN EXPO Philadelphia",
+   "kind": "comic",
+   "start": "2027-05-28",
+   "end": "2027-05-30",
+   "city": "Philadelphia",
+   "state": "PA",
+   "venue": "Pennsylvania Convention Center",
+   "url": "https://fanexpohq.com/fanexpophiladelphia",
+   "source_url": "https://fanexpohq.com/fanexpophiladelphia",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "colossalcon-prime-2027",
+   "name": "Colossalcon Prime 2027",
+   "kind": "anime",
+   "start": "2027-06-02",
+   "end": "2027-06-06",
+   "city": "Sandusky",
+   "state": "OH",
+   "venue": "Kalahari Resorts & Conventions",
+   "url": "https://colossalconprime.com",
+   "source_url": "https://colossalconprime.com/location/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "origins-game-fair-2027",
+   "name": "Origins Game Fair",
+   "kind": "boardgame",
+   "start": "2027-06-09",
+   "end": "2027-06-13",
+   "city": "Columbus",
+   "state": "OH",
+   "venue": "Greater Columbus Convention Center",
+   "url": "https://www.originsgamefair.com",
+   "source_url": "https://www.originsgamefair.com",
+   "verified": "2026-10-09",
+   "note": "Board games, RPGs, miniatures and card games in Columbus, Ohio."
+  },
+  {
+   "id": "fan-expo-dallas-2027",
+   "name": "FAN EXPO Dallas",
+   "kind": "comic",
+   "start": "2027-06-11",
+   "end": "2027-06-13",
+   "city": "Dallas",
+   "state": "TX",
+   "venue": "Kay Bailey Hutchison Convention Center",
+   "url": "https://fanexpohq.com/fanexpodallas",
+   "source_url": "https://fanexpohq.com/fanexpodallas",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "pax-unplugged-houston-2027",
+   "name": "PAX Unplugged (Houston)",
+   "kind": "boardgame",
+   "start": "2027-06-25",
+   "end": "2027-06-27",
+   "city": "Houston",
+   "state": "TX",
+   "venue": "",
+   "url": "https://unplugged.paxsite.com/",
+   "source_url": "https://unplugged.paxsite.com/",
+   "verified": "2026-10-09",
+   "note": "Badge registration was listed as coming soon."
+  },
+  {
+   "id": "fivestar-comic-con-dayton-2027",
+   "name": "FiveStar Comic Con Dayton",
+   "kind": "comic",
+   "start": "2027-06-26",
+   "end": "2027-06-27",
+   "city": "Dayton",
+   "state": "OH",
+   "venue": "",
+   "url": "https://www.fivestarcomiccon.com",
+   "source_url": "https://www.fivestarcomiccon.com",
+   "verified": "2026-10-09",
+   "note": "Venue not stated on the page."
+  },
+  {
+   "id": "anime-expo-2027",
+   "name": "Anime Expo 2027",
+   "kind": "anime",
+   "start": "2027-07-02",
+   "end": "2027-07-05",
+   "city": "Los Angeles",
+   "state": "CA",
+   "venue": "Los Angeles Convention Center",
+   "url": "https://www.anime-expo.org",
+   "source_url": "https://www.anime-expo.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "fan-expo-denver-2027",
+   "name": "FAN EXPO Denver",
+   "kind": "comic",
+   "start": "2027-07-02",
+   "end": "2027-07-05",
+   "city": "Denver",
+   "state": "CO",
+   "venue": "Colorado Convention Center",
+   "url": "https://fanexpohq.com/fanexpodenver",
+   "source_url": "https://fanexpohq.com/fanexpodenver",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "anime-ohio-2027",
+   "name": "Anime Ohio",
+   "kind": "anime",
+   "start": "2027-07-16",
+   "end": "2027-07-18",
+   "city": "Sharonville",
+   "state": "OH",
+   "venue": "Sharonville Convention Center",
+   "url": "http://www.cincyexpos.com/",
+   "source_url": "http://www.cincyexpos.com/",
+   "verified": "2026-10-09",
+   "note": "Listed by the organizer as Cincinnati; venue is Sharonville Convention Center."
+  },
+  {
+   "id": "really-cool-comic-con-flint-2027",
+   "name": "Really Cool Comic Con Flint",
+   "kind": "comic",
+   "start": "2027-07-17",
+   "end": "2027-07-18",
+   "city": "Flint",
+   "state": "MI",
+   "venue": "Dort Financial Center",
+   "url": "https://www.reallycoolcomiccon.com",
+   "source_url": "https://www.reallycoolcomiccon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "sdcc-2027",
+   "name": "San Diego Comic-Con 2027",
+   "kind": "comic",
+   "start": "2027-07-21",
+   "end": "2027-07-25",
+   "city": "San Diego",
+   "state": "CA",
+   "venue": "San Diego Convention Center",
+   "url": "https://www.comic-con.org",
+   "source_url": "https://www.comic-con.org",
+   "verified": "2026-10-09",
+   "note": "Preview Night is July 21; main days July 22-25."
+  },
+  {
+   "id": "galaxycon-raleigh-2027",
+   "name": "GalaxyCon Raleigh",
+   "kind": "comic",
+   "start": "2027-07-29",
+   "end": "2027-08-01",
+   "city": "Raleigh",
+   "state": "NC",
+   "venue": "Atlantic Union Bank Convention Center",
+   "url": "https://galaxycon.com/raleigh",
+   "source_url": "https://galaxycon.com/raleigh",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "gen-con-indy-2027",
+   "name": "Gen Con",
+   "kind": "rpg",
+   "start": "2027-08-05",
+   "end": "2027-08-08",
+   "city": "Indianapolis",
+   "state": "IN",
+   "venue": "Not stated on the page",
+   "url": "https://www.gencon.com",
+   "source_url": "https://www.gencon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "otakon-2027",
+   "name": "Otakon 2027",
+   "kind": "anime",
+   "start": "2027-08-06",
+   "end": "2027-08-08",
+   "city": "Washington",
+   "state": "DC",
+   "venue": "Walter E. Washington Convention Center",
+   "url": "https://www.otakon.com",
+   "source_url": "https://www.otakon.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "fan-expo-chicago-2027",
+   "name": "FAN EXPO Chicago",
+   "kind": "comic",
+   "start": "2027-08-20",
+   "end": "2027-08-22",
+   "city": "Rosemont",
+   "state": "IL",
+   "venue": "Donald E. Stephens Convention Center",
+   "url": "https://fanexpohq.com/fanexpochicago",
+   "source_url": "https://fanexpohq.com/fanexpochicago",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "anime-nyc-2027",
+   "name": "Anime NYC 2027",
+   "kind": "anime",
+   "start": "2027-08-26",
+   "end": "2027-08-29",
+   "city": "New York",
+   "state": "NY",
+   "venue": "Javits Convention Center",
+   "url": "https://www.animenyc.com",
+   "source_url": "https://www.animenyc.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "nova-open-2027",
+   "name": "NOVA Open",
+   "kind": "wargame",
+   "start": "2027-09-01",
+   "end": "2027-09-05",
+   "city": "Washington",
+   "state": "DC",
+   "venue": "Washington Hilton",
+   "url": "https://www.novaopen.com",
+   "source_url": "https://www.novaopen.com",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "dragon-con-2027",
+   "name": "Dragon Con 2027",
+   "kind": "scifi",
+   "start": "2027-09-02",
+   "end": "2027-09-06",
+   "city": "Atlanta",
+   "state": "GA",
+   "venue": "",
+   "url": "https://www.dragoncon.org",
+   "source_url": "https://www.dragoncon.org",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "cincinnati-comic-expo-2027",
+   "name": "Cincinnati Comic Expo",
+   "kind": "comic",
+   "start": "2027-10-01",
+   "end": "2027-10-03",
+   "city": "Cincinnati",
+   "state": "OH",
+   "venue": "First Financial Center",
+   "url": "http://www.cincyexpos.com/",
+   "source_url": "http://www.cincyexpos.com/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "cleveland-gaming-classic-2027",
+   "name": "Cleveland Gaming Classic",
+   "kind": "comic",
+   "start": "2027-10-15",
+   "end": "2027-10-17",
+   "city": "Cleveland",
+   "state": "OH",
+   "venue": "Huntington Convention Center of Cleveland",
+   "url": "https://www.gamecleveland.com/",
+   "source_url": "https://www.gamecleveland.com/",
+   "verified": "2026-10-09",
+   "note": "Video games, retro arcade, collectibles, TCG and cosplay."
+  },
+  {
+   "id": "fan-expo-boston-2027",
+   "name": "FAN EXPO Boston",
+   "kind": "comic",
+   "start": "2027-12-03",
+   "end": "2027-12-05",
+   "city": "Boston",
+   "state": "MA",
+   "venue": "Thomas Michael Menino Convention & Exhibition Center",
+   "url": "https://fanexpohq.com/fanexpoboston",
+   "source_url": "https://fanexpohq.com/fanexpoboston",
+   "verified": "2026-10-09"
+  }
+ ],
+ "weekly": [
+  {
+   "id": "recess-kill-team",
+   "name": "Kill Team Open Play",
+   "kind": "wargame",
+   "store": "Recess Games",
+   "city": "North Olmsted",
+   "state": "OH",
+   "day": "Thursday",
+   "time": "5:00 PM",
+   "cadence": "weekly",
+   "url": "https://recessgames.com/",
+   "source_url": "https://recessgames.com/collections/events",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "recess-marvel-crisis-protocol",
+   "name": "Marvel Crisis Protocol Open Play",
+   "kind": "wargame",
+   "store": "Recess Games",
+   "city": "North Olmsted",
+   "state": "OH",
+   "day": "Thursday",
+   "time": "6:00 PM",
+   "cadence": "weekly",
+   "url": "https://recessgames.com/",
+   "source_url": "https://recessgames.com/collections/events",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "checkmate-heroclix",
+   "name": "HeroClix Tournaments",
+   "kind": "wargame",
+   "store": "Checkmate Games and Hobbies",
+   "city": "Toledo",
+   "state": "OH",
+   "day": "Monday",
+   "time": "6pm",
+   "cadence": "weekly",
+   "url": "http://www.checkmategames.net/",
+   "source_url": "http://www.checkmategames.net/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "checkmate-dnd-tuesday",
+   "name": "Dungeons & Dragons",
+   "kind": "rpg",
+   "store": "Checkmate Games and Hobbies",
+   "city": "Toledo",
+   "state": "OH",
+   "day": "Tuesday",
+   "time": "12pm & 3pm",
+   "cadence": "weekly",
+   "url": "http://www.checkmategames.net/",
+   "source_url": "http://www.checkmategames.net/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "checkmate-dnd-wednesday",
+   "name": "Dungeons & Dragons",
+   "kind": "rpg",
+   "store": "Checkmate Games and Hobbies",
+   "city": "Toledo",
+   "state": "OH",
+   "day": "Wednesday",
+   "time": "3pm & 6pm",
+   "cadence": "weekly",
+   "url": "http://www.checkmategames.net/",
+   "source_url": "http://www.checkmategames.net/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "checkmate-dnd-friday",
+   "name": "Dungeons & Dragons",
+   "kind": "rpg",
+   "store": "Checkmate Games and Hobbies",
+   "city": "Toledo",
+   "state": "OH",
+   "day": "Friday",
+   "time": "2pm",
+   "cadence": "weekly",
+   "url": "http://www.checkmategames.net/",
+   "source_url": "http://www.checkmategames.net/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "checkmate-commander-league",
+   "name": "Commander League",
+   "kind": "card",
+   "store": "Checkmate Games and Hobbies",
+   "city": "Toledo",
+   "state": "OH",
+   "day": "Friday",
+   "time": "6pm",
+   "cadence": "weekly",
+   "url": "http://www.checkmategames.net/",
+   "source_url": "http://www.checkmategames.net/",
+   "verified": "2026-10-09",
+   "note": "Listed as $10 for 6 weeks."
+  },
+  {
+   "id": "immortals-gw-open-play",
+   "name": "Games Workshop Open Play",
+   "kind": "wargame",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Monday",
+   "time": "5:00 PM",
+   "cadence": "weekly",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "immortals-wh40k-open-play",
+   "name": "Warhammer 40,000 Open Play",
+   "kind": "wargame",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Thursday",
+   "time": "5:00 PM",
+   "cadence": "weekly",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "immortals-blood-bowl",
+   "name": "Blood Bowl",
+   "kind": "wargame",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Friday",
+   "time": "4:00 PM",
+   "cadence": "weekly",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "immortals-al-wednesday",
+   "name": "D&D Adventurers League",
+   "kind": "rpg",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Wednesday",
+   "time": "6 PM",
+   "cadence": "weekly",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "immortals-al-sunday",
+   "name": "D&D Adventurers League",
+   "kind": "rpg",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Sunday",
+   "time": "Noon",
+   "cadence": "weekly-except-first-sunday",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09",
+   "note": "Listed as Noon Sunday, except the 1st Sunday."
+  },
+  {
+   "id": "immortals-fnm-commander",
+   "name": "Friday Night Magic: Commander",
+   "kind": "card",
+   "store": "Immortals Inc.",
+   "city": "Rocky River",
+   "state": "OH",
+   "day": "Friday",
+   "time": "7:00 PM",
+   "cadence": "weekly",
+   "url": "https://immortalsinc.com/",
+   "source_url": "https://immortalsinc.com/events/",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "battlegrounds-gc-fnm",
+   "name": "Friday Night Magic",
+   "kind": "card",
+   "store": "Battlegrounds Game Center",
+   "city": "Ravenna",
+   "state": "OH",
+   "day": "Friday",
+   "time": "5pm",
+   "cadence": "weekly",
+   "url": "https://battlegroundsgamecenter.com/home",
+   "source_url": "https://battlegroundsgamecenter.com/home",
+   "verified": "2026-10-09",
+   "note": "Commander and more formats."
+  },
+  {
+   "id": "yottaquest-board-game-night",
+   "name": "Board Game Night",
+   "kind": "boardgame",
+   "store": "Yottaquest",
+   "city": "Cincinnati",
+   "state": "OH",
+   "day": "Tuesday",
+   "time": "6pm-10pm",
+   "cadence": "monthly-first-tuesday",
+   "url": "https://www.yottaquest.com/",
+   "source_url": "https://www.yottaquest.com/index.php/calendar",
+   "verified": "2026-10-09",
+   "note": "Held at MadTree Brewing; free."
+  },
+  {
+   "id": "yottaquest-commander-night",
+   "name": "Commander Night",
+   "kind": "card",
+   "store": "Yottaquest",
+   "city": "Cincinnati",
+   "state": "OH",
+   "day": "Tuesday",
+   "time": "6pm-10pm",
+   "cadence": "monthly-second-tuesday",
+   "url": "https://www.yottaquest.com/",
+   "source_url": "https://www.yottaquest.com/index.php/calendar",
+   "verified": "2026-10-09",
+   "note": "Free; bring a Commander deck."
+  },
+  {
+   "id": "rockin-rooster-dnd",
+   "name": "D&D",
+   "kind": "rpg",
+   "store": "Rockin' Rooster Comics & Games",
+   "city": "Cincinnati",
+   "state": "OH",
+   "day": "Monday",
+   "time": "5pm-7pm+",
+   "cadence": "weekly",
+   "url": "https://www.rockinroostercomics.com/",
+   "source_url": "https://www.rockinroostercomics.com/gaming-schedule",
+   "verified": "2026-10-09",
+   "note": "Page says bring your own character or use theirs."
+  },
+  {
+   "id": "rockin-rooster-monday-night-magic",
+   "name": "Magic Commander - Casual play MONDAY NIGHT MAGIC",
+   "kind": "card",
+   "store": "Rockin' Rooster Comics & Games",
+   "city": "Cincinnati",
+   "state": "OH",
+   "day": "Monday",
+   "time": "12pm-7pm+",
+   "cadence": "weekly",
+   "url": "https://www.rockinroostercomics.com/",
+   "source_url": "https://www.rockinroostercomics.com/gaming-schedule",
+   "verified": "2026-10-09"
+  },
+  {
+   "id": "dragons-guildhall-commander-sunday",
+   "name": "Commander Sundays",
+   "kind": "card",
+   "store": "Dragon's Guildhall",
+   "city": "Kettering",
+   "state": "OH",
+   "day": "Sunday",
+   "time": "~2pm until 6 pm",
+   "cadence": "weekly",
+   "url": "https://dragonsguildhall.biz/",
+   "source_url": "https://dragonsguildhall.biz/",
+   "verified": "2026-10-09",
+   "note": "No fee."
+  },
+  {
+   "id": "dragons-guildhall-casual-commander",
+   "name": "Casual Commander Thursday",
+   "kind": "card",
+   "store": "Dragon's Guildhall",
+   "city": "Kettering",
+   "state": "OH",
+   "day": "Thursday",
+   "time": "~6 pm until 10 pm",
+   "cadence": "weekly",
+   "url": "https://dragonsguildhall.biz/",
+   "source_url": "https://dragonsguildhall.biz/",
+   "verified": "2026-10-09",
+   "note": "$5 fee."
+  },
+  {
+   "id": "beers-and-board-games-columbus",
+   "name": "Beers and Board Games open gaming meetup",
+   "kind": "boardgame",
+   "store": "Beers and Board Games Club of Columbus (rotating breweries)",
+   "city": "Columbus",
+   "state": "OH",
+   "day": "Wednesday",
+   "time": "5:30-9:00pm",
+   "cadence": "weekly",
+   "url": "https://beersandboardgames.com/",
+   "source_url": "https://beersandboardgames.com/meetups/",
+   "verified": "2026-10-09",
+   "note": "Venue changes weekly among Central Ohio breweries; also some Sundays 1:00-5:00pm. Check the schedule page."
+  }
+ ],
+ "finders": [
+  {
+   "name": "Wizards Play Network Store & Event Locator",
+   "url": "https://locator.wizards.com/",
+   "what": "Searches official Magic and D&D events, premier events and stores near any location; the page loaded but showed no results until a search was entered.",
+   "kind": "card"
+  },
+  {
+   "name": "D&D Adventurers League: how to find a game",
+   "url": "https://www.dndbeyond.com/posts/1676-what-is-adventurers-league",
+   "what": "Official article that sends players to the Wizards store locator, the official D&D Discord and the D&D Beyond forums to find Adventurers League tables.",
+   "kind": "rpg"
+  },
+  {
+   "name": "Warhammer Community events",
+   "url": "https://www.warhammer-community.com/en-gb/events/",
+   "what": "Official Games Workshop listing of tournaments and events such as Warhammer Opens, with a separate page per event.",
+   "kind": "wargame"
+  },
+  {
+   "name": "Meetup board game search",
+   "url": "https://www.meetup.com/find/?keywords=board%20games&location=us--oh--Columbus",
+   "what": "Lists local board game, RPG and game-night groups near a chosen place, filterable by date and distance; the Columbus search returned several weekly groups.",
+   "kind": "boardgame"
+  },
+  {
+   "name": "Tabletop.Events conventions",
+   "url": "https://tabletop.events/conventions/origins-game-fair-2027",
+   "what": "Registration platform that hosts many conventions' own pages (Origins, AcadeCon, BGG.CON); each page states dates and venue.",
+   "kind": "all"
+  }
+ ],
+ "not_checked": [
+  {
+   "name": "Cincinnati Comic Expo 2026 (Sep 25-27)",
+   "reason": "Already ended before 2026-10-09; 2027 edition included."
+  },
+  {
+   "name": "Gem City Comic Con (Dayton OH)",
+   "reason": "Official site posts only July 18-19, 2026 (ended); 2027 not announced."
+  },
+  {
+   "name": "Matsuricon (Columbus OH)",
+   "reason": "Official site posts only Sept 4-6, 2026 (ended); 2027 not announced."
+  },
+  {
+   "name": "Tsukicon (Dayton OH, Oct 16-18 2026 per third-party listings)",
+   "reason": "Official site tsukicon.com returned empty content; date seen only on third-party listings."
+  },
+  {
+   "name": "Ohio Fan Fest anime convention (Dayton OH, Sep 25-27 2026)",
+   "reason": "Venue page 404; date ended anyway."
+  },
+  {
+   "name": "Cleveland Anime-Fest / Marietta / Dayton Anime-Fest (Oct 3 2026 etc.)",
+   "reason": "Official site not found; animefest.com unreachable (certificate error); Oct 3 already past."
+  },
+  {
+   "name": "Animate! Columbus / Cleveland",
+   "reason": "animatecon.com is a for-sale page; 2027 dates not found on GalaxyCon site."
+  },
+  {
+   "name": "Really Cool Comic Con Toledo / Fantasticon Toledo",
+   "reason": "Only 2026 editions found (ended); no 2027 dates posted."
+  },
+  {
+   "name": "Indiana Comic Convention (Indianapolis, June 4-6 2027 per visitindy)",
+   "reason": "Official site returned 403; dates not read on the event's own site."
+  },
+  {
+   "name": "LouisvilleCon (Louisville KY)",
+   "reason": "Official site connection refused."
+  },
+  {
+   "name": "WV Pop Con (Morgantown WV)",
+   "reason": "Official site did not show 2026/2027 dates."
+  },
+  {
+   "name": "ShockaCon (WV)",
+   "reason": "shockacon.com is a domain-sale page."
+  },
+  {
+   "name": "Capital City Comic Con (Lansing MI, July 9-11 2027 per third party)",
+   "reason": "Official site gave no readable content."
+  },
+  {
+   "name": "MiAnime, Kalamazoo Comic Con (MI)",
+   "reason": "Official sites not reached."
+  },
+  {
+   "name": "Marcon (Columbus OH)",
+   "reason": "Official site says suspended for a year or two."
+  },
+  {
+   "name": "Cleveland Comic Con / Mid-Ohio Con",
+   "reason": "No active official site found."
+  },
+  {
+   "name": "Pittsburgh Comicon, Anime Pittsburgh (PA)",
+   "reason": "Official sites did not resolve."
+  },
+  {
+   "name": "Anthrocon (Pittsburgh, July 1-4 2027)",
+   "reason": "Furry convention; left out as outside the categories (dates were read)."
+  },
+  {
+   "name": "Anime Boston, Fanime, FanX Salt Lake, HeroesCon, Wizard World",
+   "reason": "Sites returned 403, no dates, or redirected to Fan Expo with no schedule."
+  },
+  {
+   "name": "Denver Comic Con, Stan Lee's LA Comic Con, Crunchyroll Expo, MCM NY",
+   "reason": "Sites did not resolve, 404, or redirected without dates."
+  },
+  {
+   "name": "Baltimore Comic-Con (Sept 25-27 2026)",
+   "reason": "Ended; no 2027 date posted."
+  },
+  {
+   "name": "Colossalcon North/East/Texas/Virginia, GalaxyCon Nashville/St. Louis/Des Moines/OKC/San Jose, Fan Expo Atlanta",
+   "reason": "Out of the priority area, or page not found; not read."
+  },
+  {
+   "name": "Best Coast Pairings event search",
+   "reason": "https://www.bestcoastpairings.com/ loads only a title shell with no readable events; /events returned nothing readable, so no Ohio tournaments could be read."
+  },
+  {
+   "name": "Warhammer store finder (warhammer.com/en-US/store-finder)",
+   "reason": "HTTP 405 Method Not Allowed to the fetch tool."
+  },
+  {
+   "name": "BoardGameGeek conventions list (boardgamegeek.com/geekevents)",
+   "reason": "HTTP 403 Forbidden."
+  },
+  {
+   "name": "Las Vegas Open",
+   "reason": "2026 edition ran 2026-10-01 to 2026-10-04 (ended before 2026-10-09); vegasopen.com is a parked domain; no 2027 edition found announced."
+  },
+  {
+   "name": "Michigan GT",
+   "reason": "michigangt.com returned 404; no dates read from the organiser."
+  },
+  {
+   "name": "Dragonflight",
+   "reason": "dfgamecon.org loaded but showed no dates or venue."
+  },
+  {
+   "name": "DEXCON / Dreamation",
+   "reason": "dexcon.org refused the connection, dreamation.net does not resolve, dexposure.com shows no dates."
+  },
+  {
+   "name": "D&D Celebration / Winter Fantasy",
+   "reason": "dndcelebration.com failed certificate check; no 2027 dates found on an organiser page."
+  },
+  {
+   "name": "Geekway Prime 2027",
+   "reason": "Geekway page says Prime is held each May but gives no 2027 date."
+  },
+  {
+   "name": "TORG Gaming Expo (Columbus, 2026-11-14 to 11-15)",
+   "reason": "Dates seen only in search snippets; no official page could be reached, so not included."
+  },
+  {
+   "name": "GaMiCon 2027",
+   "reason": "Organiser page on tabletop.events listed only 2028 to 2030 dates."
+  },
+  {
+   "name": "PAX Unplugged venue",
+   "reason": "Dates read on unplugged.paxsite.com but no venue name stated there, so venue left blank."
+  },
+  {
+   "name": "NOVA Open 2026, Origins 2026, Gen Con 2026, Tacoma Open 2026",
+   "reason": "Already ended before 2026-10-09; excluded."
+  },
+  {
+   "name": "BGG.CON via bggcon.com / bgg.activityclub.org",
+   "reason": "bggcon.com did not resolve and the activity club site had a certificate error; dates read from tabletop.events instead."
+  },
+  {
+   "name": "The Warp Gate (Columbus)",
+   "reason": "thewarpgate.net says events run every week but the pages read had no days or times (calendar not in readable text)."
+  },
+  {
+   "name": "The Guardtower East/West (Columbus, Hilliard)",
+   "reason": "Site gives only 'Every Wednesday at 6:30PM' (East) and 'Tuesday at 7PM' (West) without naming the game; /events returned 404."
+  },
+  {
+   "name": "The Soldiery (Columbus)",
+   "reason": "Events page lists no events in readable text."
+  },
+  {
+   "name": "Ravenstone Games (Columbus)",
+   "reason": "SSL handshake failure."
+  },
+  {
+   "name": "Tabletop Game Cafe (Columbus)",
+   "reason": "Site loaded but lists no recurring nights, only hours."
+  },
+  {
+   "name": "Epic Loot Games (Centerville)",
+   "reason": "Recurring events are images; text not readable."
+  },
+  {
+   "name": "The Game Haven (Dayton) Facebook",
+   "reason": "Fetch returned no event text."
+  },
+  {
+   "name": "Mavericks Cards and Hobbies (Mason)",
+   "reason": "mavericksgames.com is under construction; schedule seen only on a third-party directory, so not included."
+  },
+  {
+   "name": "Full Grip Games (Akron), Woodburn Games (Cincinnati), Battlegrounds to Board Games (Canton), Cornersburg Cards and Games (Youngstown), Refined Gaming (Toledo), Alchemist's Refuge",
+   "reason": "Own sites showed no readable weekly schedule, did not resolve, or refused the connection; nothing included."
+  },
+  {
+   "name": "Dragon's Lair Columbus-North Friday Night Magic",
+   "reason": "Store says it runs every week but gives no time in readable text, so omitted."
+  },
+  {
+   "name": "Cleveland proper, Akron proper, Youngstown and small-town stores",
+   "reason": "Coverage is thin: only Rocky River, North Olmsted and Ravenna in the Cleveland-Akron area had readable nights. Search did not surface store sites for the rest."
+  },
+  {
+   "name": "Dragon's Lair Columbus-North Warhammer and Kill Team nights",
+   "reason": "only in store posts dated 2023 and 2024"
+  },
+  {
+   "name": "AdamCon 2027",
+   "reason": "venue to be announced; city only from a search result"
+  },
+  {
+   "name": "Winterfest (wargaming, Sandusky OH, February)",
+   "reason": "Long-running, but found only in 2018 write-ups (grogheads.com); no organiser page or listing with a 2027 date could be found."
+  },
+  {
+   "name": "SCG CON Cincinnati",
+   "reason": "2026 edition (May 15-17) ended; SCG's first-half 2027 schedule (announced 2026-09-29) has no Ohio stop."
+  },
+  {
+   "name": "Game Con (Archbold OH, Northwest State Community College)",
+   "reason": "2026 edition was July 18 (ended); no 2027 date found."
+  },
+  {
+   "name": "Cleveland Gaming Classic 2026 (Sept 11-13)",
+   "reason": "Ended; the 2027 edition is included."
+  },
+  {
+   "name": "GalaxyCon / Animate! Columbus June 2026, Cleveland Sept 2026",
+   "reason": "Only aggregator listings; galaxycon.com/columbus lists only Dec 4-6 2026, which is included."
+  },
+  {
+   "name": "Cincinnati Comic Expo, Sharonville Oct 2026",
+   "reason": "Aggregator noise: cincyexpos.com lists the 2026 expo as Sep 25-27 at First Financial Center (ended) and Anime Ohio 2027 at Sharonville; the 2027 expo is already included."
+  },
+  {
+   "name": "Tsukicon (Dayton OH)",
+   "reason": "tsukicon.com still returns no content on 2026-10-09; Oct 16-18 2026 seen only on third-party listings."
+  },
+  {
+   "name": "Drums at the Rapids (Fort Meigs, Perrysburg OH)",
+   "reason": "Organiser page shows only May 15-16, 2026 (ended)."
+  },
+  {
+   "name": "NOWSCON (Northern Ohio Wargaming Society)",
+   "reason": "No organiser page with a 2026 or 2027 date found."
+  }
+ ]
+}

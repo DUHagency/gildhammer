@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100"><!-- Shipping: a crate on a longship's deck, the sail full. Drawn here, 2026-10-09. -->
+<path d="M14 70 H146 Q138 92 112 92 H48 Q22 92 14 70 Z" fill="#6e5034" stroke="#2e2419" stroke-width="2.5"/>
+<path d="M14 70 Q8 56 14 48 M146 70 Q152 56 146 48" fill="none" stroke="#2e2419" stroke-width="4" stroke-linecap="round"/>
+<path d="M80 8 V70" stroke="#2e2419" stroke-width="4"/>
+<path d="M58 14 H102 V44 H58 Z" fill="#a33a28" stroke="#2e2419" stroke-width="2"/>
+<path d="M58 24 H102 M58 34 H102" stroke="#e8e0cc" stroke-width="4"/>
+<rect x="96" y="50" width="26" height="20" fill="#c08a2e" stroke="#2e2419" stroke-width="2"/>
+<path d="M96 60 H122 M109 50 V70" stroke="#2e2419" stroke-width="2"/>
+</svg>

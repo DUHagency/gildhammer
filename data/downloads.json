@@ -1,0 +1,5 @@
+{
+  "_comment": "Gildhammer's own design files, free to download. Empty until the first design leaves the bench. A file is {\"id\":\"…\",\"name\":\"…\",\"lane\":\"repair|film|rc|games|nordic|car|vanity|halloween|organize|props\",\"what\":\"…\",\"file\":\"downloads/<id>.3mf\",\"formats\":[\"3mf\",\"stl\"],\"size_mm\":[x,y,z],\"grams\":n,\"settings\":\"layer, infill, supports, material\",\"licence\":\"CC BY 4.0\",\"sell_prints\":true,\"added\":\"YYYY-MM-DD\"}. Files themselves go in site/downloads/.",
+  "licence_default": "CC BY 4.0",
+  "files": []
+}

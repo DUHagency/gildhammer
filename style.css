@@ -1,0 +1,386 @@
+/* Gildhammer — a Viking-age house. Since 2026-10-09 every colour is a dye or
+ * pigment the Norse are known to have used, and the walls are the colour of the
+ * cloth most of them wore: undyed white wool (user: "the background needs to be
+ * the color the nord would have used … the colors should be that of the dyes of
+ * the time period"). The evidence, with sources, is the DUH vault page
+ * vault/internal/playbook/guides/evan/Gildhammer Nordic Brand.md.
+ *
+ *   ground   undyed white wool — the commonest cloth (Skals et al. 2024; York Coppergate)
+ *   chalk    lead white, the ground under Viking paint (Nationalmuseet palette report)
+ *   madder   madder red on alum — the best-attested red dye (Walton Rogers 1997)
+ *   red lead the strong orange-red painted on runestones (Köping, Öland)
+ *   weld     weld / greenweed yellow
+ *   ochre    yellow ochre, Viking paint
+ *   green    woad over weld — the only way woad appears here (see the lock)
+ *   moorit   brown fleece, left undyed
+ *   walnut, soot  dark wood and charcoal black, the beams and the hearth
+ *
+ * THE BLUE LOCK (user, 2026-10-08): "white is acceptable, and the amount of
+ * blue in that white is acceptable for other colors". Blue never leads: in
+ * every colour on this site, blue is at most the smaller of red and green. So
+ * woad blue and lichen purple, though both are real Norse dyes, are not used.
+ * `node tools/check-blue.mjs` enforces it over every file in site/.
+ * Links carry no underline in any state (DUH AGENTS.md rule 12). */
+
+/* Our own three faces, all drawn for this workshop (font/): Gildhammer for
+ * the name, Gildhammer Rune for the rune lines (no horizontal strokes, as runes cut
+ * across wood grain have none — so since 2026-10-09 it no longer sets the
+ * headings, where its H read as N: "TNE STORE"), Gildhammer Saga for reading. */
+@font-face {
+  font-family: 'Gildhammer';
+  src: url(fonts/Gildhammer-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gildhammer Rune';
+  src: url(fonts/GildhammerRune-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gildhammer Saga';
+  src: url(fonts/GildhammerSaga-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+
+:root {
+  /* the walls: undyed wool and lead white */
+  --ground: #e8e0cc;
+  --chalk: #f2ece0;
+  --wool-lo: #cfc3a8;
+  --fleece: #9c968a;
+  /* the beams and the hearth */
+  --walnut: #2e2419;
+  --walnut-hi: #3d3022;
+  --soot: #1e1b18;
+  /* the dyes and the paint */
+  --madder: #a33a28;
+  --madder-hi: #8a2f20;
+  --red-lead: #d9481f;
+  --weld: #e8c84a;
+  --ochre: #c08a2e;
+  --green: #3e6236;
+  --green-hi: #4e7a44;
+  --moorit: #6e5034;
+  /* words */
+  --ink: #2b2620;
+  --muted: #6e5034;
+  --on-dark: #f2ece0;
+  --on-dark-muted: #cfc3a8;
+  --white: #ffffff;
+  /* the names before 2026-10-09, still read by games.css */
+  --linen: var(--chalk); --birch: var(--ground); --wool: var(--ground);
+  --timber: var(--walnut); --timber-hi: var(--walnut-hi); --timber-lo: var(--soot);
+  --falu: var(--madder); --falu-hi: var(--madder-hi); --pine: var(--green); --pine-hi: var(--green-hi);
+  --ember: var(--ochre); --ember-hi: var(--weld);
+  --display: 'Gildhammer', 'Arial Narrow', sans-serif;
+  --heading: 'Gildhammer', 'Arial Narrow', sans-serif;
+  --body: 'Gildhammer Saga', Georgia, 'Iowan Old Style', 'Palatino Linotype', serif;
+  --rune: 'Gildhammer Rune', 'Apple Symbols', 'Segoe UI Historic', 'Noto Sans Runic', serif;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--ground); }
+body {
+  margin: 0;
+  color: var(--ink);
+  font: 18px/1.65 var(--body);
+  /* cloth: a faint twill in the undyed wool */
+  background:
+    repeating-linear-gradient(45deg, rgba(110,80,52,.045) 0 2px, rgba(0,0,0,0) 2px 6px),
+    repeating-linear-gradient(-45deg, rgba(255,255,255,.18) 0 1px, rgba(0,0,0,0) 1px 6px),
+    var(--ground);
+}
+a, a:hover, a:focus, a:active, a:visited { color: var(--madder); text-decoration: none; border-bottom: 0; }
+a:hover, a:focus-visible { color: var(--madder-hi); }
+:focus-visible { outline: 3px solid var(--ochre); outline-offset: 3px; }
+
+h1, h2, h3, .wordmark, .tag, .n, .status span, .nav, .btn, .chip {
+  font-family: var(--display);
+  font-weight: 400;
+  letter-spacing: .06em;
+  color: var(--walnut);
+}
+
+h1, h2, h3, .tag, .n { font-family: var(--heading); }
+
+/* ---- the roof beam ------------------------------------------------------- */
+
+.bar { background: var(--walnut); border-bottom: 4px solid var(--madder); position: sticky; top: 0; z-index: 10; }
+.bar-in { max-width: 82rem; margin: 0 auto; padding: .6rem 1rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; }
+.bar .home { font-family: var(--display); font-size: 1.5rem; color: var(--weld); letter-spacing: .06em; display: inline-flex; align-items: center; gap: .5rem; }
+.bar .home img { width: 30px; height: 30px; }
+.nav { display: flex; flex-wrap: wrap; gap: .25rem 1.15rem; margin: 0; padding: 0; list-style: none; font-size: 1.05rem; }
+.nav a, .nav a:visited { color: var(--on-dark); }
+.nav a:hover, .nav a:focus-visible { color: var(--weld); }
+.nav a[aria-current="page"] { color: var(--weld); }
+.nav .cart-link, .nav .cart-link:visited { color: var(--ochre); }
+
+/* The language picker (js/app.js): a button in the bar and a drop of names, each in
+ * its own language. Graphic only — no page is translated. */
+.bar-in { position: relative; }
+.lang-btn { appearance: none; cursor: pointer; display: inline-flex; align-items: center; gap: .4rem; background: transparent; color: var(--on-dark); border: 2px solid var(--moorit); border-radius: 3px; padding: .15rem .6rem .15rem .35rem; font: inherit; font-family: var(--display); letter-spacing: .06em; font-size: 1.05rem; line-height: 1.3; }
+.lang-btn:hover, .lang-btn[aria-expanded="true"] { color: var(--weld); border-color: var(--ochre); }
+.lang-btn img { display: block; }
+.lang-menu { position: absolute; right: 1rem; top: 100%; z-index: 20; width: min(36rem, calc(100vw - 2rem)); max-height: min(34rem, calc(100vh - 6rem)); overflow-y: auto; margin-top: 4px; padding: 1rem 1.1rem .8rem; background: var(--chalk); color: var(--ink); border: 2px solid var(--wool-lo); border-top: 6px solid var(--madder); box-shadow: 0 3px 0 var(--wool-lo); text-align: left; font-family: var(--body); letter-spacing: 0; font-size: 18px; }
+.lang-menu[hidden] { display: none; }
+.lang-groups, .lang-list { list-style: none; margin: 0; padding: 0; }
+.lang-group { margin: 0 0 .6rem; }
+.lang-head { display: block; font-family: var(--display); letter-spacing: .08em; font-size: .95rem; color: var(--green); border-bottom: 2px solid var(--wool-lo); margin-bottom: .3rem; }
+.lang-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: .25rem .5rem; }
+.lang-opt { letter-spacing: 0; appearance: none; cursor: pointer; width: 100%; display: block; text-align: left; background: transparent; color: var(--ink); border: 2px solid transparent; border-radius: 3px; padding: .25rem .5rem; font: inherit; line-height: 1.25; overflow-wrap: anywhere; }
+.lang-opt:hover { background: var(--ground); border-color: var(--wool-lo); }
+.lang-opt[aria-pressed="true"] { background: var(--madder); color: var(--chalk); border-color: var(--madder); }
+.lang-own { display: block; font-size: 1.05rem; }
+.lang-en { display: block; font-size: .8rem; color: var(--muted); }
+.lang-opt[aria-pressed="true"] .lang-en { color: var(--on-dark-muted); }
+.lang-note { margin: .5rem 0 0; min-height: 1.4em; font-size: .9rem; color: var(--muted); }
+
+/* ---- the house on the home page, and the page heads ---------------------- */
+
+.hero { max-width: 82rem; margin: 0 auto; padding: 2.5rem 1rem 2rem; text-align: center; }
+.hero.page { padding: 2.5rem 1rem 1.75rem; }
+.hero-core { position: relative; }
+.house { width: min(36rem, 100%); height: auto; display: block; margin: 0 auto .5rem; }
+.wordmark {
+  font-size: clamp(3rem, 11vw, 7rem);
+  line-height: 1;
+  margin: 0;
+  color: var(--madder);
+  text-shadow: 0 3px 0 var(--wool-lo);
+}
+.runes { font-family: var(--rune); color: var(--muted); letter-spacing: .5em; margin: .6rem 0 0; font-size: 1.2rem; }
+.hero.page h1 { font-size: clamp(2.2rem, 7vw, 3.8rem); margin: 0; color: var(--madder); }
+.wordmark.small { font-size: 2.2rem; text-shadow: none; color: var(--weld); margin: 0 0 .25rem; }
+.tag { font-size: clamp(1.1rem, 3vw, 1.55rem); margin: 1rem 0 1.25rem; color: var(--green); }
+.lede { max-width: 40rem; margin: 0 auto 1.5rem; color: var(--ink); }
+.status { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: .4rem 1rem; align-items: center; margin: 0; padding: .7rem 1.25rem; background: var(--chalk); border: 2px solid var(--wool-lo); color: var(--muted); font-size: .95rem; }
+.status span { color: var(--green); font-size: 1.05rem; }
+
+/* The band: a Borre ring-chain carved into a timber rail (img/knot.svg). */
+.band {
+  height: 30px;
+  margin: 0;
+  background: url(img/knot.svg) center / 28px 24px repeat-x, var(--walnut);
+  border-top: 3px solid var(--madder);
+  border-bottom: 3px solid var(--madder);
+}
+
+/* ---- rooms --------------------------------------------------------------- */
+
+main { max-width: 72rem; margin: 0 auto; padding: 1rem 1rem 3rem; }
+section { padding: 3rem 0 1rem; }
+h2 { font-size: clamp(1.8rem, 5vw, 2.5rem); text-align: center; margin: 0 0 .5rem; color: var(--walnut); }
+/* under every heading, a little gable: two rafters meeting */
+h2::after { content: ''; display: block; width: 4.5rem; height: 12px; margin: .5rem auto 0; background: linear-gradient(160deg, transparent 45%, var(--madder) 45% 60%, transparent 60%) left / 50% 100% no-repeat, linear-gradient(200deg, transparent 45%, var(--madder) 45% 60%, transparent 60%) right / 50% 100% no-repeat; }
+.intro { text-align: center; color: var(--muted); max-width: 42rem; margin: 0 auto 2rem; }
+h3 { font-size: 1.3rem; margin: 0 0 .5rem; color: var(--madder); }
+
+.cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1.5rem; }
+.cards > li, .tile {
+  position: relative;
+  padding: 1.5rem 1.4rem 1.3rem;
+  background: var(--chalk);
+  border: 2px solid var(--wool-lo);
+  border-top: 6px solid var(--madder);
+  box-shadow: 0 2px 0 var(--wool-lo);
+}
+.cards > li:nth-child(3n+2) { border-top-color: var(--green); }
+.cards > li:nth-child(3n) { border-top-color: var(--ochre); }
+.cards > li p, .tile p { margin: 0 0 .5rem; color: var(--ink); font-size: .98rem; }
+.cards .more { font-family: var(--display); letter-spacing: .06em; font-size: .95rem; }
+
+/* The hearth: the welcome room, warm timber with the fire's light on it. */
+.hearth { background: var(--walnut); color: var(--on-dark); margin: 2rem -1rem 0; padding: 2.5rem 1.5rem 2rem; border-top: 6px solid var(--ochre); border-bottom: 6px solid var(--ochre); }
+.hearth h2, .hearth h3 { color: var(--weld); }
+.hearth h2::after { background: linear-gradient(160deg, transparent 45%, var(--ochre) 45% 60%, transparent 60%) left / 50% 100% no-repeat, linear-gradient(200deg, transparent 45%, var(--ochre) 45% 60%, transparent 60%) right / 50% 100% no-repeat; }
+.hearth .intro { color: var(--on-dark-muted); }
+.hearth .cards > li { background: var(--walnut-hi); border-color: var(--soot); box-shadow: none; }
+.hearth .cards > li p { color: var(--on-dark); }
+.hearth a, .hearth a:visited { color: var(--weld); }
+.hearth a:hover { color: var(--white); }
+
+.split { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 2.5rem; }
+.split h2 { text-align: left; }
+.split h2::after { margin-left: 0; }
+.nots, .four { margin: 1.25rem 0 0; padding: 0; list-style: none; }
+.nots li, .four li { padding: .7rem 0 .7rem 2.2rem; border-bottom: 1px solid var(--wool-lo); position: relative; }
+.nots li::before { content: '✕'; position: absolute; left: .2rem; top: .7rem; color: var(--madder); font-family: var(--display); }
+.four { counter-reset: q; }
+.four li::before { counter-increment: q; content: counter(q); position: absolute; left: .3rem; top: .6rem; font-family: var(--display); color: var(--green); font-size: 1.3rem; }
+.nots strong { color: var(--madder); font-weight: 400; font-family: var(--display); letter-spacing: .04em; }
+
+.steps { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.5rem; }
+.steps li { text-align: center; padding: 0 .5rem; }
+.steps p { margin: 0; color: var(--ink); font-size: .98rem; }
+/* a step is a rune-stone: tall, rounded at the head */
+.n {
+  display: grid; place-items: center;
+  width: 4.2rem; height: 5.2rem; margin: 0 auto 1rem;
+  font-size: 2rem; line-height: 1; color: var(--chalk);
+  background: var(--green);
+  border-radius: 2.1rem 2.1rem .4rem .4rem;
+  box-shadow: inset 0 0 0 3px var(--green-hi);
+}
+
+/* ---- controls: chips, buttons, a find box -------------------------------- */
+
+.filters { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; margin: 0 0 1.25rem; }
+.chip, .btn {
+  appearance: none; cursor: pointer;
+  background: var(--chalk); color: var(--walnut);
+  border: 2px solid var(--wool-lo); border-radius: 3px;
+  padding: .45rem .9rem; font-size: 1rem; line-height: 1.1;
+}
+.chip[aria-pressed="true"], .btn.primary { background: var(--madder); color: var(--chalk); border-color: var(--madder); }
+.chip:hover, .btn:hover { border-color: var(--madder); color: var(--madder); }
+.chip[aria-pressed="true"]:hover, .btn.primary:hover { color: var(--white); background: var(--madder-hi); }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+.find { display: block; width: min(30rem, 100%); margin: 0 auto 1.25rem; padding: .6rem .9rem; font: 1rem var(--body); color: var(--ink); background: var(--chalk); border: 2px solid var(--wool-lo); border-radius: 3px; }
+.find::placeholder { color: var(--muted); }
+.find:focus { border-color: var(--madder); outline: none; }
+.count { text-align: center; color: var(--muted); font-size: .95rem; margin: -.5rem 0 1.25rem; }
+
+.notice { max-width: 46rem; margin: 0 auto 2rem; padding: 1rem 1.25rem; background: var(--chalk); border: 2px dashed var(--green); color: var(--ink); text-align: center; }
+.notice strong { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--green); }
+
+/* ---- the store ----------------------------------------------------------- */
+
+.goods { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1.25rem; list-style: none; margin: 0; padding: 0; }
+.good { display: flex; flex-direction: column; gap: .4rem; }
+.good .cat { font-family: var(--display); letter-spacing: .06em; color: var(--muted); font-size: .85rem; }
+.good h3 { font-size: 1.15rem; margin: 0; color: var(--walnut); }
+.good .price { font-family: var(--display); font-size: 1.6rem; color: var(--madder); letter-spacing: .04em; }
+.good .basis { font-size: .8rem; color: var(--muted); }
+.good ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; color: var(--muted); }
+.good .btn { margin-top: auto; align-self: flex-start; }
+.cartbox { max-width: 46rem; margin: 2rem auto 0; }
+.cartbox table { width: 100%; border-collapse: collapse; }
+.cartbox td, .cartbox th { padding: .4rem .3rem; border-bottom: 1px solid var(--wool-lo); text-align: left; }
+.cartbox th { font-family: var(--display); font-weight: 400; color: var(--green); letter-spacing: .06em; }
+.cartbox .total { font-family: var(--display); font-size: 1.4rem; color: var(--madder); text-align: right; margin: .75rem 0; }
+
+/* ---- lists: software, designs, makerspaces, events ----------------------- */
+
+.group { margin: 0 0 2.5rem; }
+.group > h3 { font-size: 1.6rem; text-align: center; margin-bottom: 1rem; }
+.rows { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); gap: 1rem; }
+.rows > li { padding: 1rem 1.1rem; background: var(--chalk); border: 1px solid var(--wool-lo); border-left: 5px solid var(--green); }
+.rows h4 { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--walnut); font-size: 1.15rem; margin: 0 0 .3rem; }
+.rows h4 a, .rows h4 a:visited { color: var(--madder); }
+.rows p { margin: 0 0 .4rem; font-size: .95rem; }
+.meta { display: flex; flex-wrap: wrap; gap: .25rem .9rem; font-size: .85rem; color: var(--muted); }
+.meta b { font-weight: 400; color: var(--green); font-family: var(--display); letter-spacing: .04em; }
+.yes { color: var(--green); }
+.no { color: var(--muted); }
+
+/* ---- the map: hung on a dark timber board so its marks keep their light -- */
+
+.mapwrap { position: relative; max-width: 52rem; margin: 0 auto 1rem; background: var(--walnut); border: 6px solid var(--walnut-hi); outline: 2px solid var(--madder); padding: 1rem; }
+.mapwrap svg { display: block; width: 100%; height: auto; }
+.county { fill: #33281c; stroke: #8a6a3a; stroke-width: .9; }
+.county:hover { fill: #45362a; }
+.pin { stroke: var(--soot); stroke-width: 1; cursor: pointer; }
+.pin:hover, .pin:focus { stroke: var(--white); stroke-width: 2; outline: none; }
+.tip { position: absolute; pointer-events: none; background: var(--chalk); border: 2px solid var(--madder); padding: .4rem .6rem; font-size: .85rem; color: var(--ink); max-width: 18rem; display: none; }
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1rem; justify-content: center; font-size: .9rem; color: var(--muted); margin: .5rem 0 1rem; }
+.legend i { display: inline-block; width: 12px; height: 12px; margin-right: .35rem; vertical-align: -1px; transform: rotate(45deg); outline: 1px solid var(--walnut); }
+
+footer { text-align: center; padding: 2.5rem 1rem 3rem; color: var(--on-dark-muted); background: var(--walnut); }
+footer p { margin: .2rem 0; }
+footer .fine { font-size: .85rem; color: var(--on-dark-muted); opacity: .8; }
+footer a, footer a:visited { color: var(--ochre); }
+
+@media (max-width: 760px) {
+  .bar-in { justify-content: center; }
+  .hearth { margin: 2rem -1rem 0; padding: 2rem 1rem; }
+}
+
+/* ---- the quote form ------------------------------------------------------ */
+
+.quote { max-width: 40rem; margin: 0 auto 1.5rem; display: grid; gap: 1rem; }
+.field { display: grid; gap: .3rem; min-width: 0; }
+.field label { font-family: var(--display); letter-spacing: .06em; color: var(--walnut); font-size: 1rem; }
+.field small { color: var(--muted); font-size: .85rem; }
+.field input, .field select, .field textarea {
+  font: 1rem var(--body); color: var(--ink); background: var(--white);
+  border: 2px solid var(--wool-lo); border-radius: 3px; padding: .55rem .7rem; width: 100%;
+}
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--madder); outline: none; }
+.field.small input { width: 7rem; }
+.field input[type="file"] { padding: .4rem; }
+#q-preview { max-width: 100%; max-height: 16rem; object-fit: contain; border: 2px solid var(--wool-lo); }
+.quote .btn { justify-self: start; font-size: 1.1rem; padding: .6rem 1.2rem; }
+.formmsg { margin: 0; min-height: 1.5em; color: var(--ink); }
+.trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+/* ---- the events calendar ------------------------------------------------- */
+
+.cal-head { display: flex; align-items: center; justify-content: center; gap: 1rem; margin: 0 0 1rem; }
+.cal-head h3 { margin: 0; min-width: 12rem; text-align: center; font-size: 1.6rem; color: var(--walnut); }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 2px solid var(--walnut); border-left: 1px solid var(--wool-lo); background: var(--chalk); }
+.cal > div { min-height: 6.5rem; padding: .3rem .35rem; border-right: 1px solid var(--wool-lo); border-bottom: 1px solid var(--wool-lo); font-size: .78rem; min-width: 0; }
+.cal .dow { min-height: 0; background: var(--walnut); color: var(--on-dark); font-family: var(--display); letter-spacing: .06em; text-align: center; font-size: .9rem; border-color: var(--walnut); }
+.cal .out { background: var(--ground); color: var(--muted); }
+.cal .today { box-shadow: inset 0 0 0 3px var(--ochre); }
+.cal .d { font-family: var(--display); color: var(--muted); display: block; }
+.cal .ev { display: block; margin: .15rem 0 0; padding: .1rem .3rem; border-left: 4px solid var(--k, var(--green)); background: var(--white); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 1.35; }
+.cal .ev:hover { color: var(--madder); }
+.cal .more-ev { color: var(--muted); }
+.k-comic { --k: #d9481f; } .k-anime { --k: #d08a74; } .k-toy { --k: #d9b72b; } .k-scifi { --k: #9c968a; }
+.k-wargame { --k: #3e6236; } .k-rpg { --k: #a33a28; } .k-boardgame { --k: #6e5034; } .k-card { --k: #6b6a2e; } .k-paint { --k: #c08a2e; }
+.kind-mark { display: inline-block; width: .8rem; height: .8rem; margin-right: .35rem; background: var(--k); vertical-align: -1px; outline: 1px solid var(--chalk); }
+.agenda { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: .6rem; }
+.agenda li { display: grid; grid-template-columns: 7.5rem 1fr; gap: .9rem; padding: .7rem .9rem; background: var(--chalk); border: 1px solid var(--wool-lo); border-left: 5px solid var(--k, var(--green)); }
+.agenda .when { font-family: var(--display); letter-spacing: .04em; color: var(--madder); line-height: 1.3; }
+.agenda h4 { margin: 0 0 .15rem; font-family: var(--display); font-weight: 400; letter-spacing: .05em; font-size: 1.1rem; }
+.agenda p { margin: 0; font-size: .92rem; }
+.agenda .ics { font-size: .85rem; }
+.nights { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 1rem; }
+.nights section { padding: 0; }
+.nights h4 { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--chalk); background: var(--green); margin: 0; padding: .3rem .7rem; }
+.nights ul { list-style: none; margin: 0; padding: 0; border: 1px solid var(--wool-lo); border-top: 0; background: var(--chalk); }
+.nights li { padding: .5rem .7rem; border-top: 1px solid var(--wool-lo); font-size: .9rem; }
+.nights li:first-child { border-top: 0; }
+.nights b { font-weight: 400; font-family: var(--display); letter-spacing: .04em; color: var(--madder); }
+@media (max-width: 760px) {
+  .cal > div { min-height: 4rem; padding: .2rem; }
+  .cal .ev { font-size: 0; padding: 0; height: 6px; margin-top: 2px; background: var(--k, var(--green)); border: 0; }
+  .agenda li { grid-template-columns: 1fr; gap: .2rem; }
+}
+
+/* ---- the Old Norse word over a heading, and a saying from Hávamál --------- */
+
+.kicker { display: block; font-family: var(--body); font-style: italic; font-size: 1rem; letter-spacing: .04em; color: var(--madder); text-align: center; margin: 0 0 .15rem; }
+.split .kicker { text-align: left; }
+.hearth .kicker { color: var(--weld); }
+.saying { max-width: 34rem; margin: 0 auto 1.25rem; font-style: italic; color: var(--moorit); font-size: 1.05rem; }
+.saying cite { display: block; font-style: normal; font-size: .85rem; letter-spacing: .04em; margin-top: .2rem; }
+.lane-law { max-width: 46rem; margin: 0 auto 1.5rem; padding: 1rem 1.25rem; background: var(--chalk); border: 2px solid var(--red-lead); border-left-width: 8px; color: var(--ink); font-size: .95rem; }
+.lane-law strong { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--madder); }
+
+/* ---- each inner page's emblem, drawn in the dyes (img/<page>.svg) -------- */
+.emblem { display: block; width: min(10rem, 40vw); height: auto; margin: 0 auto .75rem; }
+
+/* News, Downloads, Forum, Log in, Shipping — 2026-10-09 */
+.nav .login-link, .nav .login-link:visited { color: var(--weld); }
+.fine-print { font-size: .85rem; color: var(--muted); }
+.news .date { font-family: var(--display); letter-spacing: .06em; color: var(--madder); margin: 0 0 .2rem; }
+.boards { list-style: none; margin: 0 auto 2.5rem; padding: 0; max-width: 52rem; display: grid; gap: .6rem; }
+.board { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .9rem 1.1rem; background: var(--chalk); border: 1px solid var(--wool-lo); border-left: 5px solid var(--madder); }
+.board h4 { font-family: var(--display); font-weight: 400; letter-spacing: .06em; color: var(--walnut); font-size: 1.15rem; margin: 0 0 .25rem; }
+.board p { margin: 0; font-size: .95rem; }
+.board-n { flex: none; text-align: center; color: var(--muted); font-size: .85rem; }
+.board-n span { display: block; font-family: var(--display); font-size: 1.4rem; color: var(--walnut); }
+.rules { max-width: 40rem; margin: 0 auto; }
+.notes { list-style: none; padding: 0; text-align: left; max-width: 46rem; }
+.notes li { margin: 0 0 .6rem; }
+.tablewrap { overflow-x: auto; margin: 0 0 2rem; }
+.ship { width: 100%; min-width: 52rem; border-collapse: collapse; background: var(--chalk); font-size: .95rem; }
+.ship th, .ship td { padding: .55rem .6rem; border: 1px solid var(--wool-lo); text-align: left; vertical-align: top; }
+.ship thead th { background: var(--walnut); color: var(--on-dark); font-family: var(--display); font-weight: 400; letter-spacing: .05em; }
+.ship small { display: block; font-size: .8rem; color: var(--muted); }
+.ship thead small { color: var(--on-dark-muted); }
+.ship tbody th { font-family: var(--display); font-weight: 400; letter-spacing: .05em; color: var(--walnut); }
+.ship .nc { color: var(--muted); font-style: italic; }
+@media (max-width: 760px) { .board { flex-direction: column; align-items: flex-start; } }
+.ship .ship-note td { font-size: .85rem; color: var(--muted); border-top: 0; padding-top: 0; }

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shipping — Gildhammer</title>
+<meta name="description" content="How big a 3-D print can be, what it weighs boxed, and what it costs to ship from Ohio by USPS, UPS and FedEx.">
+<link rel="icon" href="img/mark.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/Gildhammer-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/GildhammerSaga-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script src="js/app.js" defer></script>
+<script src="js/shipping.js" defer></script>
+</head>
+<body>
+
+<header class="bar"><div class="bar-in">
+  <a class="home" href="./"><img src="img/mark.svg" alt="">Gildhammer</a>
+  <ul class="nav">
+    <li><a href="./">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="store.html">Store</a></li>
+    <li><a href="store.html#nordic">Nordic</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="designs.html">Free designs</a></li>
+    <li><a href="downloads.html">Downloads</a></li>
+    <li><a href="software.html">Software</a></li>
+    <li><a href="map.html">Map</a></li>
+    <li><a href="games.html">Arcade</a></li>
+    <li><a href="forum.html">Forum</a></li>
+    <li><a href="shipping.html" aria-current="page">Shipping</a></li>
+    <li><a href="quote.html">Get a quote</a></li>
+    <li><a class="login-link" href="login.html" data-login>Log in</a></li>
+    <li><a class="cart-link" href="store.html#cart">Cart <span data-cart-count>0</span></a></li>
+  </ul>
+</div></header>
+
+<div class="hero page">
+  <div class="hero-core">
+    <img class="emblem" src="img/shipping.svg" alt="">
+    <h1>Shipping</h1>
+    <p class="lede">From a chess piece to a full printer plate: the box it goes in, what it weighs packed, and what it costs to send near, middling and far.</p>
+  </div>
+</div>
+
+<div class="band" aria-hidden="true"></div>
+
+<main>
+  <p class="intro" id="from"></p>
+  <div class="tablewrap"><table class="ship">
+    <thead><tr><th scope="col">Size</th><th scope="col">For example</th><th scope="col">Filament</th><th scope="col">Box</th><th scope="col">Packed</th><th scope="col">Service</th><th scope="col">Near<small>zone 1–2</small></th><th scope="col">Middle<small>zone 5</small></th><th scope="col">Far<small>zone 8</small></th></tr></thead>
+    <tbody id="tiers"><tr><td colspan="9">Loading…</td></tr></tbody>
+  </table></div>
+  <ul class="intro notes" id="notes"></ul>
+  <section class="group" aria-labelledby="car-h">
+    <h3 id="car-h">What sets the price</h3>
+    <ul class="rows" id="carriers"></ul>
+  </section>
+  <section class="group" aria-labelledby="no-h">
+    <h3 id="no-h">What we will not ship, or ship only with care</h3>
+    <ul class="rows" id="cannot"></ul>
+  </section>
+  <section class="group" aria-labelledby="int-h">
+    <h3 id="int-h">Outside the United States</h3>
+    <ul class="intro notes" id="intl"></ul>
+  </section>
+  <p class="intro fine-print" id="method"></p>
+</main>
+
+<div class="band" aria-hidden="true"></div>
+
+<footer>
+  <p class="wordmark small">Gildhammer</p>
+  <p>A DUH workshop · Ohio</p>
+  <p class="fine">Lettering: Gildhammer, Gildhammer Rune and Gildhammer Saga, typefaces drawn for this workshop.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "_comment": "The forum's boards. The forum itself is not built (user, 2026-10-09: 'a user forum board we will set up later'); this is the shape it will open with. threads stays 0 until it opens.",
+  "opens": null,
+  "boards": [
+    { "id": "show", "name": "Show your prints", "about": "What came off your printer this week, good or bad, with the settings that made it." },
+    { "id": "repair", "name": "Repair help", "about": "A broken knob, clip or bracket: post a photo with a ruler and somebody will help you model the replacement." },
+    { "id": "troubleshoot", "name": "Printer trouble", "about": "Stringing, warping, clogs, first layers, Bambu and QIDI quirks. Say the printer, the filament and the slicer." },
+    { "id": "tabletop", "name": "Tabletop and terrain", "about": "Minis, terrain, bases, dice towers, painting. Warhammer, D&D and board games." },
+    { "id": "nordic", "name": "The Nordic shelf", "about": "Hnefatafl sets, longships, runes and Dala horses: designs, sources and finishes." },
+    { "id": "designs", "name": "Designs and licences", "about": "Share your own models, ask what a licence allows, and find a file before you buy one." },
+    { "id": "requests", "name": "Requests", "about": "Something you want printed or designed. A request here is not a quote: for that, use Get a quote." },
+    { "id": "events", "name": "Events and meetups", "about": "Cons, game nights and makerspace open nights in Ohio, and who is going." }
+  ],
+  "rules": [
+    "Be decent. No hate, no harassment, no doxxing.",
+    "Post only designs you made or have the licence to share, and say which licence.",
+    "No files or instructions for working firearms, firearm parts or anything meant to hurt someone.",
+    "No selling in threads except in Requests, and never personal details in public."
+  ]
+}
